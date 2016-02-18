@@ -1,0 +1,29 @@
+<div layout-align="center center" layout="row" flex="33" class="completeDiv">
+  <div flex class="md-whiteframe-7dp top_margin">
+    <div class="md-color md-padding" flex layout-align="center center" layout="row">
+      <img class="logo" src="images/logo2.svg" />
+    </div>
+    <md-toolbar class="md-warn warningstyle" flex="33" ng-show="verifyUserCtrl.hasError">
+      <div class="md-toolbar-tools">
+        <h5 class="md-flex">{{verifyUserCtrl.errorMessage}}</h5>
+      </div>
+    </md-toolbar>
+    <div class="layout layout-sm layout-sm-column md-padding setHeight">
+      <md-input-container class="flex md-default-theme">
+        <label for="input_175"> New Password </label>
+        <input ng-model="verifyUserCtrl.new_password" type="password" class="ng-pristine ng-valid md-input ng-touched" id="input_175" aria-invalid="false" style="">
+      </md-input-container>
+    </div>
+    <div class="md-padding setHeight">
+      <div layout layout-sm="column">
+        <md-input-container flex>
+          <label> Confirm Password </label>
+          <input ng-model="verifyUserCtrl.confirm_password" class="ng-pristine ng-valid md-input ng-touched" id="input_175" type="password" aria-invalid="false" style="">
+        </md-input-container>
+      </div>
+    </div>
+    <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="" class="layout-wrap layout-sm-column layout-align-center-center layout-row">
+      <button class="md-raised md-primary md-button md-ink-ripple" ng-click="verifyUserCtrl.verifyUserByToken()" type="button"><span class="ng-scope"> Set Password </span></button>
+    </section>
+  </div>
+</div>

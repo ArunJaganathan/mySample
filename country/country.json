@@ -1,0 +1,2213 @@
+[{
+	"_id": "8W5jeQuqQFLCoeoRY",
+	"code": "AF",
+	"name": "Afghanistan",
+	"curr_name": "Afghani",
+	"curr_sym": "AFN",
+	"curr_br": "AFN",
+	"xval": 57.3
+}, {
+	"_id": "kTqD5EseQQDLzFD7w",
+	"code": "AX",
+	"name": "Åland Islands",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934
+
+}, {
+	"_id": "qx8RRzAMWGT5yNhfG",
+	"code": "AL",
+	"name": "Albania",
+	"curr_name": "Lek",
+	"curr_sym": "ALL",
+	"curr_br": "ALL",
+	"xval": 124.954
+
+}, {
+	"_id": "X5co7wfrm82sbbZmZ",
+	"code": "DZ",
+	"name": "Algeria",
+	"curr_name": "Algerian Dinar",
+	"curr_sym": "DZD",
+	"curr_br": "DZD",
+	"xval": 94.495
+
+}, {
+	"_id": "zcmwF55YPLR2HRJXr",
+	"code": "AS",
+	"name": "American Samoa",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "NLpnaHwqwt3tpd9XG",
+	"code": "AD",
+	"name": "Andorra",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934
+
+}, {
+	"_id": "aBzr9c2GyhyddpzyY",
+	"code": "AO",
+	"name": "Angola",
+	"curr_name": "Kwanza",
+	"curr_sym": "AOA",
+	"curr_br": "",
+	"xval": 106.35
+
+}, {
+	"_id": "9Kc9j38AfpRzoaKPC",
+	"code": "AI",
+	"name": "Anguilla",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7
+
+}, {
+	"_id": "kckQXp3mxkNQ8aNwC",
+	"code": "AG",
+	"name": "Antigua and Barbuda",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7
+
+}, {
+	"_id": "vbFzvxurFuG65bpWa",
+	"code": "AR",
+	"name": "Argentina",
+	"curr_name": "Argentine Peso",
+	"curr_sym": "ARS",
+	"curr_br": "AR$",
+	"xval": 8.7263
+
+}, {
+	"_id": "YCbmvfTAYLM7jEwMz",
+	"code": "AM",
+	"name": "Armenia",
+	"curr_name": "Armenian Dram",
+	"curr_sym": "AMD",
+	"curr_br": "",
+	"xval": 478.76
+
+}, {
+	"_id": "JnQqKd6KezWKJZnhx",
+	"code": "AW",
+	"name": "Aruba",
+	"curr_name": "Aruban Florin",
+	"curr_sym": "AWG",
+	"curr_br": "",
+	"xval": 1.79,
+
+}, {
+	"_id": "t5uyT4BKaiNfciQG7",
+	"code": "AU",
+	"name": "Australia",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804
+
+}, {
+	"_id": "uvn6hvJDknrN59R7n",
+	"code": "AT",
+	"name": "Austria",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+}, {
+	"_id": "ZX8Bd63esNhrTvRrZ",
+	"code": "AZ",
+	"name": "Azerbaijan",
+	"curr_name": "Azerbaijanian Manat",
+	"curr_sym": "AZN",
+	"curr_br": "",
+	"xval": 1.0473
+
+}, {
+	"_id": "8TaEonwgZCL6u5ZJv",
+	"code": "BS",
+	"name": "Bahamas",
+	"curr_name": "Bahamian Dollar",
+	"curr_sym": "BSD",
+	"curr_br": "",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "AbCPqXXjgAPr4xTvX",
+	"code": "BH",
+	"name": "Bahrain",
+	"curr_name": "Bahraini Dinar",
+	"curr_sym": "BHD",
+	"curr_br": "BHD",
+	"xval": 0.3771
+
+}, {
+	"_id": "CHiXvhFKTXJHbeQWh",
+	"code": "BD",
+	"name": "Bangladesh",
+	"curr_name": "Taka",
+	"curr_sym": "BDT",
+	"curr_br": "",
+	"xval": 77.879,
+
+}, {
+	"_id": "C2WF9HXMJdXQPK4KA",
+	"code": "BB",
+	"name": "Barbados",
+	"curr_name": "Barbados Dollar",
+	"curr_sym": "BBD",
+	"curr_br": "",
+	"xval": NumberInt(2)
+
+}, {
+	"_id": "q42qmZkz34KA5MQfm",
+	"code": "BY",
+	"name": "Belarus",
+	"curr_name": "Belarussian Ruble",
+	"curr_sym": "BYR",
+	"curr_br": "",
+	"xval": NumberInt(14800)
+
+}, {
+	"_id": "vQ5oPtPuCbdm8kNAk",
+	"code": "BE",
+	"name": "Belgium",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934
+
+}, {
+	"_id": "sSvxtuzehSWDsNaah",
+	"code": "BZ",
+	"name": "Belize",
+	"curr_name": "Belize Dollar",
+	"curr_sym": "BZD",
+	"curr_br": "",
+	"xval": 1.995
+
+}, {
+	"_id": "9tq7GSamG4utTCzic",
+	"code": "BJ",
+	"name": "Benin",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911
+
+}, {
+	"_id": "RQyutwWkXrw3AEhRD",
+	"code": "BM",
+	"name": "Bermuda",
+	"curr_name": "Bermudian Dollar",
+	"curr_sym": "BMD",
+	"curr_br": "",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "6XmtdANGbJTau4eWP",
+	"code": "BT",
+	"name": "Bhutan",
+	"curr_name": "Indian Rupee",
+	"curr_sym": "INR",
+	"curr_br": "&#8377;",
+	"xval": 61.6624
+
+}, {
+	"_id": "nWSh6rDZGAohcXui2",
+	"code": "BO",
+	"name": "Bolivia, Plurination",
+	"curr_name": "Boliviano",
+	"curr_sym": "BOB",
+	"curr_br": "",
+	"xval": 6.91
+
+}, {
+	"_id": "BEzWS9pT8qK4T89cb",
+	"code": "BQ",
+	"name": "Bonaire, Sint Eustat",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "DWnPjuNJet9kLFzSd",
+	"code": "BA",
+	"name": "Bosnia and Herzegovi",
+	"curr_name": "Convertible Mark",
+	"curr_sym": "BAM",
+	"curr_br": "",
+	"xval": 1.747
+
+}, {
+	"_id": "5FLEnc8GDp5ZQHyas",
+	"code": "BW",
+	"name": "Botswana",
+	"curr_name": "Pula",
+	"curr_sym": "BWP",
+	"curr_br": "",
+	"xval": 9.6166,
+
+}, {
+	"_id": "5fwqZkFssgH2NJL4G",
+	"code": "BV",
+	"name": "Bouvet Island",
+	"curr_name": "Norwegian Krone",
+	"curr_sym": "NOK",
+	"curr_br": "NOK",
+	"xval": 7.668
+
+}, {
+	"_id": "cTZZa2xDzWRRu7rMk",
+	"code": "BR",
+	"name": "Brazil",
+	"curr_name": "Brazilian Real",
+	"curr_sym": "BRL",
+	"curr_br": "",
+	"xval": 2.8619
+
+}, {
+	"_id": "SEQpQ2b967sY74msp",
+	"code": "IO",
+	"name": "British Indian Ocean",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "oQhFvZPjqpmMekqdg",
+	"code": "BN",
+	"name": "Brunei Darussalam",
+	"curr_name": "Brunei Dollar",
+	"curr_sym": "BND",
+	"curr_br": "",
+	"xval": 1.3615
+
+}, {
+	"_id": "xR6BXBgcanXZxbxxw",
+	"code": "BG",
+	"name": "Bulgaria",
+	"curr_name": "Bulgarian Lev",
+	"curr_sym": "BGN",
+	"curr_br": "&euro",
+	"xval": 1.7473
+
+}, {
+	"_id": "ghKc6vuXwrwsc7xjB",
+	"code": "BF",
+	"name": "Burkina Faso",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911
+
+}, {
+	"_id": "KKcmzR3RgWcKs8uPM",
+	"code": "BI",
+	"name": "Burundi",
+	"curr_name": "Burundi Franc",
+	"curr_sym": "BIF",
+	"curr_br": "",
+	"xval": 1556.1,
+
+}, {
+	"_id": "hHk9H9MkXR2QkPKuG",
+	"code": "KH",
+	"name": "Cambodia",
+	"curr_name": "Riel",
+	"curr_sym": "KHR",
+	"curr_br": "",
+	"xval": 4049.95,
+
+}, {
+	"_id": "GutzLo7F4jiLJR3Eh",
+	"code": "CM",
+	"name": "Cameroon",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "CcfXnJeF3NJEyZmcC",
+	"code": "CA",
+	"name": "Canada",
+	"curr_name": "Canadian Dollar",
+	"curr_sym": "CAD",
+	"curr_br": "C $",
+	"xval": 1.2508,
+
+}, {
+	"_id": "gJhkqNN7xd7Jg99Nu",
+	"code": "CV",
+	"name": "Cape Verde",
+	"curr_name": "Cape Verde Escudo",
+	"curr_sym": "CVE",
+	"curr_br": "",
+	"xval": 98.0995,
+
+}, {
+	"_id": "RdKNKqun496xQQBG9",
+	"code": "KY",
+	"name": "Cayman Islands",
+	"curr_name": "Cayman Islands Dolla",
+	"curr_sym": "KYD",
+	"curr_br": "",
+	"xval": 0.82,
+
+}, {
+	"_id": "pXnvzoB57zcGGc75i",
+	"code": "CF",
+	"name": "Central African Repu",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "tAkiYQTbggHdbZttN",
+	"code": "TD",
+	"name": "Chad",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "iLXwsLmfErQBL8qLk",
+	"code": "CL",
+	"name": "Chile",
+	"curr_name": "Chilean Peso",
+	"curr_sym": "CLP",
+	"curr_br": "",
+	"xval": 617.555,
+
+}, {
+	"_id": "cJNzhx5ziEQj8fE35",
+	"code": "CN",
+	"name": "China",
+	"curr_name": "Yuan Renminbi",
+	"curr_sym": "CNY",
+	"curr_br": "&yen",
+	"xval": 6.2674,
+
+}, {
+	"_id": "pMtSH4Rpam7SMR8D2",
+	"code": "CX",
+	"name": "Christmas Island",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "G2Jq6FN45i4n5KtcH",
+	"code": "CC",
+	"name": "Cocos (Keeling) Isla",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "aZaiRfQjbsYMNcuRA",
+	"code": "CO",
+	"name": "Colombia",
+	"curr_name": "Colombian Peso",
+	"curr_sym": "COP",
+	"curr_br": "",
+	"xval": 2500.02,
+
+}, {
+	"_id": "sLJm3gdC46EwxJEBB",
+	"code": "KM",
+	"name": "Comoros",
+	"curr_name": "Comoro Franc",
+	"curr_sym": "KMF",
+	"curr_br": "",
+	"xval": 439.434,
+
+}, {
+	"_id": "TxuENEcbJDv3A5tRL",
+	"code": "CG",
+	"name": "Congo",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "etFxBqYXNZp83jtd6",
+	"code": "CD",
+	"name": "Congo, the Democrati",
+	"curr_name": "Congolese Franc",
+	"curr_sym": "CDF",
+	"curr_br": "",
+	"xval": NumberInt(913),
+
+}, {
+	"_id": "B2wrjt74FR4LgXs3J",
+	"code": "CK",
+	"name": "Cook Islands",
+	"curr_name": "New Zealand Dollar",
+	"curr_sym": "NZD",
+	"curr_br": "NZD",
+	"xval": 1.3233,
+
+}, {
+	"_id": "7jMKukGDKWuZ8MY7L",
+	"code": "CR",
+	"name": "Costa Rica",
+	"curr_name": "Costa Rican Colon",
+	"curr_sym": "CRC",
+	"curr_br": "",
+	"xval": 534.615,
+
+}, {
+	"_id": "3GL5TxzuXSFtCTDSy",
+	"code": "CI",
+	"name": "C�te d'Ivoire",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "FoMBY9pRmEGcaye8E",
+	"code": "HR",
+	"name": "Croatia",
+	"curr_name": "Croatian Kuna",
+	"curr_sym": "HRK",
+	"curr_br": "HRK",
+	"xval": 6.8472,
+
+}, {
+	"_id": "mFzkZyiJTcdZbedrh",
+	"code": "CU",
+	"name": "Cuba",
+	"curr_name": "Peso Convertible",
+	"curr_sym": "CUC",
+	"curr_br": "",
+	"xval": NumberInt(-1),
+
+}, {
+	"_id": "gr2AmAmXieYZNunDZ",
+	"code": "CW",
+	"name": "Cura�ao",
+	"curr_name": "Netherlands Antillea",
+	"curr_sym": "ANG",
+	"curr_br": "",
+	"xval": 1.79,
+
+}, {
+	"_id": "jwFCjzrni6FA2KtA6",
+	"code": "CY",
+	"name": "Cyprus",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "dgpxmaE7hyMJipMDB",
+	"code": "CZ",
+	"name": "Czech Republic",
+	"curr_name": "Czech Koruna",
+	"curr_sym": "CZK",
+	"curr_br": "Kc",
+	"xval": 24.574,
+
+}, {
+	"_id": "fm3i3Fz3RuhT847mW",
+	"code": "DK",
+	"name": "Denmark",
+	"curr_name": "Danish Krone",
+	"curr_sym": "DKK",
+	"curr_br": "DKK",
+	"xval": 6.6681,
+
+}, {
+	"_id": "P2NBpkScHf7YuvdSF",
+	"code": "DJ",
+	"name": "Djibouti",
+	"curr_name": "Djibouti Franc",
+	"curr_sym": "DJF",
+	"curr_br": "",
+	"xval": 177.795,
+
+}, {
+	"_id": "ap5FswhqrCJeKyLsg",
+	"code": "DM",
+	"name": "Dominica",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "oKMox4YWpeJoCT3qf",
+	"code": "DO",
+	"name": "Dominican Republic",
+	"curr_name": "Dominican Peso",
+	"curr_sym": "DOP",
+	"curr_br": "",
+	"xval": 44.8,
+
+}, {
+	"_id": "p4hDCmizvPoeQbXzR",
+	"code": "EC",
+	"name": "Ecuador",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "9y4TL9hiwvva2hLtG",
+	"code": "EG",
+	"name": "Egypt",
+	"curr_name": "Egyptian Pound",
+	"curr_sym": "EGP",
+	"curr_br": "",
+	"xval": 7.631,
+
+}, {
+	"_id": "dn4B3A8WfvHS3w4cN",
+	"code": "SV",
+	"name": "El Salvador",
+	"curr_name": "El Salvador Colon",
+	"curr_sym": "SVC",
+	"curr_br": "",
+	"xval": 8.745,
+
+}, {
+	"_id": "v4FjMhwxBYJYcYF67",
+	"code": "GQ",
+	"name": "Equatorial Guinea",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "8EeomfGofTNAvB865",
+	"code": "ER",
+	"name": "Eritrea",
+	"curr_name": "Nakfa",
+	"curr_sym": "ERN",
+	"curr_br": "",
+	"xval": 15.2766,
+
+}, {
+	"_id": "zrgWHe7eSv4WcyuGo",
+	"code": "EE",
+	"name": "Estonia",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "sqhQDTaWGfH27KS6H",
+	"code": "ET",
+	"name": "Ethiopia",
+	"curr_name": "Ethiopian Birr",
+	"curr_sym": "ETB",
+	"curr_br": "",
+	"xval": 20.3505,
+
+}, {
+	"_id": "Jgbo9kp5mufRBLhYK",
+	"code": "FK",
+	"name": "Falkland Islands (Ma",
+	"curr_name": "Falkland Islands Pou",
+	"curr_sym": "FKP",
+	"curr_br": "",
+	"xval": 0.647,
+
+}, {
+	"_id": "5t5bRaRxSNZBe72B2",
+	"code": "FO",
+	"name": "Faroe Islands",
+	"curr_name": "Danish Krone",
+	"curr_sym": "DKK",
+	"curr_br": "DKK",
+	"xval": 6.6681,
+
+}, {
+	"_id": "vRryeLH4TYsBitad4",
+	"code": "FJ",
+	"name": "Fiji",
+	"curr_name": "Fiji Dollar",
+	"curr_sym": "FJD",
+	"curr_br": "",
+	"xval": 2.0463,
+
+}, {
+	"_id": "dBDJsN7euZCySqpx3",
+	"code": "FI",
+	"name": "Finland",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "XyoPXFyCpKhoFWhTW",
+	"code": "FR",
+	"name": "France",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "m5qqohJkHEgaYwipe",
+	"code": "GF",
+	"name": "French Guiana",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "WrrZQXwPvhw5N7XSQ",
+	"code": "PF",
+	"name": "French Polynesia",
+	"curr_name": "CFP Franc",
+	"curr_sym": "XPF",
+	"curr_br": "",
+	"xval": 106.589,
+
+}, {
+	"_id": "4fMRFNdqWK9LChP5s",
+	"code": "TF",
+	"name": "French Southern Terr",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "rRd4YArR2jak3o7ww",
+	"code": "GA",
+	"name": "Gabon",
+	"curr_name": "CFA Franc BEAC",
+	"curr_sym": "XAF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "sw5AxvKSjbwaNACR8",
+	"code": "GM",
+	"name": "Gambia",
+	"curr_name": "Dalasi",
+	"curr_sym": "GMD",
+	"curr_br": "",
+	"xval": 42.95,
+
+}, {
+	"_id": "YWdDMGaypwsEovRcF",
+	"code": "GE",
+	"name": "Georgia",
+	"curr_name": "Lari",
+	"curr_sym": "GEL",
+	"curr_br": "",
+	"xval": 2.1478,
+
+}, {
+	"_id": "Wg4KWGuBCAmCew6qh",
+	"code": "DE",
+	"name": "Germany",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "PB9yJqFEw62sGDefN",
+	"code": "GH",
+	"name": "Ghana",
+	"curr_name": "Ghana Cedi",
+	"curr_sym": "GHS",
+	"curr_br": "",
+	"xval": 3.5,
+
+}, {
+	"_id": "85mtnbQscmL6TBzFN",
+	"code": "GI",
+	"name": "Gibraltar",
+	"curr_name": "Gibraltar Pound",
+	"curr_sym": "GIP",
+	"curr_br": "",
+	"xval": 0.6479,
+
+}, {
+	"_id": "QTuwgzRF9W7zKyR6g",
+	"code": "GR",
+	"name": "Greece",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "ZvLJw2GhuFEuTLzn9",
+	"code": "GL",
+	"name": "Greenland",
+	"curr_name": "Danish Krone",
+	"curr_sym": "DKK",
+	"curr_br": "DKK",
+	"xval": 6.6681,
+
+}, {
+	"_id": "CDHtoDLnGcud8cs89",
+	"code": "GD",
+	"name": "Grenada",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "cwoYxMkM72RgFBr5S",
+	"code": "GP",
+	"name": "Guadeloupe",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "i2CotCFaJkwAJcC7N",
+	"code": "GU",
+	"name": "Guam",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "N9s2y7tGjdnLwetcB",
+	"code": "GT",
+	"name": "Guatemala",
+	"curr_name": "Quetzal",
+	"curr_sym": "GTQ",
+	"curr_br": "",
+	"xval": 7.6285,
+
+}, {
+	"_id": "AeR5i4sCBgCB5tecB",
+	"code": "GG",
+	"name": "Guernsey",
+	"curr_name": "Pound Sterling",
+	"curr_sym": "GBP",
+	"curr_br": "&pound",
+	"xval": 0.6479,
+
+}, {
+	"_id": "RWKpgiSCsi9MWWagx",
+	"code": "GN",
+	"name": "Guinea",
+	"curr_name": "Guinea Franc",
+	"curr_sym": "GNF",
+	"curr_br": "",
+	"xval": NumberInt(7260),
+
+}, {
+	"_id": "JDvD6mW7aRLhmfRws",
+	"code": "GW",
+	"name": "Guinea-Bissau",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "tNsreCtkSCw854CEX",
+	"code": "GY",
+	"name": "Guyana",
+	"curr_name": "Guyana Dollar",
+	"curr_sym": "GYD",
+	"curr_br": "",
+	"xval": 207.21,
+
+}, {
+	"_id": "d4mRcRXaP5FSiQC9B",
+	"code": "HT",
+	"name": "Haiti",
+	"curr_name": "Gourde",
+	"curr_sym": "HTG",
+	"curr_br": "",
+	"xval": 47.1194,
+
+}, {
+	"_id": "zyADLYcQbYDcibB95",
+	"code": "HM",
+	"name": "Heard Island and McD",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "B5Mb7sGH4TuEh37Xe",
+	"code": "VA",
+	"name": "Holy See (Vatican Ci",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "Mz9uk69n7t2tMPpPC",
+	"code": "HN",
+	"name": "Honduras",
+	"curr_name": "Lempira",
+	"curr_sym": "HNL",
+	"curr_br": "",
+	"xval": NumberInt(21),
+
+}, {
+	"_id": "23aoTTSEJ3wYuzRkn",
+	"code": "HK",
+	"name": "Hong Kong",
+	"curr_name": "Hong Kong Dollar",
+	"curr_sym": "HKD",
+	"curr_br": "HK$",
+	"xval": 7.7557,
+
+}, {
+	"_id": "J2Jb7PnHCQFt2oFK5",
+	"code": "HU",
+	"name": "Hungary",
+	"curr_name": "Forint",
+	"curr_sym": "HUF",
+	"curr_br": "Ft",
+	"xval": 270.785,
+
+}, {
+	"_id": "s9JrJWvm369L4SWfH",
+	"code": "IS",
+	"name": "Iceland",
+	"curr_name": "Iceland Krona",
+	"curr_sym": "ISK",
+	"curr_br": "",
+	"xval": 133.31,
+
+}, {
+	"_id": "hA7NCvo5MuKh8vPLB",
+	"code": "IN",
+	"name": "India",
+	"curr_name": "Indian Rupee",
+	"curr_sym": "INR",
+	"curr_br": "&#8377;",
+	"xval": 61.6624,
+
+}, {
+	"_id": "Dpedma7KokWPTgtey",
+	"code": "ID",
+	"name": "Indonesia",
+	"curr_name": "Rupiah",
+	"curr_sym": "IDR",
+	"curr_br": "Rp",
+	"xval": NumberInt(13025),
+
+}, {
+	"_id": "2MPsHfvr7eYPLSgHT",
+	"code": "IR",
+	"name": "Iran, Islamic Republ",
+	"curr_name": "Iranian Rial",
+	"curr_sym": "IRR",
+	"curr_br": "",
+	"xval": NumberInt(27708),
+
+}, {
+	"_id": "HzZegZHhR3pJQiXTf",
+	"code": "IQ",
+	"name": "Iraq",
+	"curr_name": "Iraqi Dinar",
+	"curr_sym": "IQD",
+	"curr_br": "",
+	"xval": NumberInt(1189),
+
+}, {
+	"_id": "zNjyZzcJ7iyAawj6m",
+	"code": "IE",
+	"name": "Ireland",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "oTx4ytK6QbLTkBLnc",
+	"code": "IM",
+	"name": "Isle of Man",
+	"curr_name": "Pound Sterling",
+	"curr_sym": "GBP",
+	"curr_br": "&pound",
+	"xval": 0.6479,
+
+}, {
+	"_id": "MjFNbRr5BZ6Htx6oS",
+	"code": "IL",
+	"name": "Israel",
+	"curr_name": "New Israeli Sheqel",
+	"curr_sym": "ILS",
+	"curr_br": "&#8362",
+	"xval": 3.983,
+
+}, {
+	"_id": "aPs9cMwRaebjCwKEY",
+	"code": "IT",
+	"name": "Italy",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "QaGETqjb6KqiRvCyG",
+	"code": "JM",
+	"name": "Jamaica",
+	"curr_name": "Jamaican Dollar",
+	"curr_sym": "JMD",
+	"curr_br": "",
+	"xval": 115.355,
+
+}, {
+	"_id": "5RvGdnkRajmJhQ6wH",
+	"code": "JP",
+	"name": "Japan",
+	"curr_name": "Yen",
+	"curr_sym": "JPY",
+	"curr_br": "&yen",
+	"xval": 119.735,
+
+}, {
+	"_id": "cbXAhvxFHXNgLa4Ri",
+	"code": "JE",
+	"name": "Jersey",
+	"curr_name": "Pound Sterling",
+	"curr_sym": "GBP",
+	"curr_br": "&pound",
+	"xval": 0.6479,
+
+}, {
+	"_id": "7x59TzrsAhJhahWri",
+	"code": "JO",
+	"name": "Jordan",
+	"curr_name": "Jordanian Dinar",
+	"curr_sym": "JOD",
+	"curr_br": "",
+	"xval": 0.7082,
+
+}, {
+	"_id": "8DDprP4wpv9xNcFKN",
+	"code": "KZ",
+	"name": "Kazakhstan",
+	"curr_name": "Tenge",
+	"curr_sym": "KZT",
+	"curr_br": "",
+	"xval": 185.17,
+
+}, {
+	"_id": "xBXp4rrnM6RrqScdZ",
+	"code": "KE",
+	"name": "Kenya",
+	"curr_name": "Kenyan Shilling",
+	"curr_sym": "KES",
+	"curr_br": "",
+	"xval": 91.3885,
+
+}, {
+	"_id": "yTAnka2sRX6wDJrfG",
+	"code": "KI",
+	"name": "Kiribati",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "9gmkK8WxGrKm43aNB",
+	"code": "KP",
+	"name": "Korea, Democratic Pe",
+	"curr_name": "North Korean Won",
+	"curr_sym": "KPW",
+	"curr_br": "",
+	"xval": NumberInt(900),
+
+}, {
+	"_id": "LLMiZDQunWKhrRXu3",
+	"code": "KR",
+	"name": "Korea, Republic of",
+	"curr_name": "Won",
+	"curr_sym": "KRW",
+	"curr_br": "KRW",
+	"xval": 1100.4,
+
+}, {
+	"_id": "Qj3XBrApvZ3Aig5CL",
+	"code": "KW",
+	"name": "Kuwait",
+	"curr_name": "Kuwaiti Dinar",
+	"curr_sym": "KWD",
+	"curr_br": "",
+	"xval": 0.296,
+
+}, {
+	"_id": "qDoGAtLMaWQMFd22E",
+	"code": "KG",
+	"name": "Kyrgyzstan",
+	"curr_name": "Som",
+	"curr_sym": "KGS",
+	"curr_br": "",
+	"xval": 61.314,
+
+}, {
+	"_id": "a4EJAKhnYETdzPazE",
+	"code": "LA",
+	"name": "Lao People's Democra",
+	"curr_name": "Kip",
+	"curr_sym": "LAK",
+	"curr_br": "",
+	"xval": 8111.95,
+
+}, {
+	"_id": "PyBr7zRRB5qrNPCqG",
+	"code": "LV",
+	"name": "Latvia",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "pgSCwTH6pXLK2r332",
+	"code": "LB",
+	"name": "Lebanon",
+	"curr_name": "Lebanese Pound",
+	"curr_sym": "LBP",
+	"curr_br": "",
+	"xval": 1508.5,
+
+}, {
+	"_id": "YKkcHvLXiGe6F9Dg5",
+	"code": "LS",
+	"name": "Lesotho",
+	"curr_name": "Loti",
+	"curr_sym": "LSL",
+	"curr_br": "",
+	"xval": 11.6908,
+
+}, {
+	"_id": "d2zjzemAi957stPTa",
+	"code": "LR",
+	"name": "Liberia",
+	"curr_name": "Liberian Dollar",
+	"curr_sym": "LRD",
+	"curr_br": "",
+	"xval": 84.6556,
+
+}, {
+	"_id": "87HSLNHNSC3LrkWv6",
+	"code": "LY",
+	"name": "Libya",
+	"curr_name": "Libyan Dinar",
+	"curr_sym": "LYD",
+	"curr_br": "",
+	"xval": 1.3549,
+
+}, {
+	"_id": "TFJY8LtEaXfEAqbYa",
+	"code": "LI",
+	"name": "Liechtenstein",
+	"curr_name": "Swiss Franc",
+	"curr_sym": "CHF",
+	"curr_br": "CHF",
+	"xval": 0.9518,
+
+}, {
+	"_id": "tAjSFShLLSK9wpFti",
+	"code": "LT",
+	"name": "Lithuania",
+	"curr_name": "Lithuanian Litas",
+	"curr_sym": "LTL",
+	"curr_br": "Lt",
+	"xval": 2.934,
+
+}, {
+	"_id": "sPGLokBPuY2qiyNkc",
+	"code": "LU",
+	"name": "Luxembourg",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "nT3GpjX4L6na4gxu3",
+	"code": "MO",
+	"name": "Macao",
+	"curr_name": "Pataca",
+	"curr_sym": "MOP",
+	"curr_br": "",
+	"xval": 7.9886,
+
+}, {
+	"_id": "PCWrkRzi7B5hhsmhR",
+	"code": "MK",
+	"name": "Macedonia, the forme",
+	"curr_name": "Denar",
+	"curr_sym": "MKD",
+	"curr_br": "",
+	"xval": 54.875,
+
+}, {
+	"_id": "qhzLmCxkocPL9e7fF",
+	"code": "MG",
+	"name": "Madagascar",
+	"curr_name": "Malagasy Ariary",
+	"curr_sym": "MGA",
+	"curr_br": "",
+	"xval": 2837.25,
+
+}, {
+	"_id": "S7bZ4CdMxQyHRjwya",
+	"code": "MW",
+	"name": "Malawi",
+	"curr_name": "Kwacha",
+	"curr_sym": "MWK",
+	"curr_br": "",
+	"xval": 451.995,
+
+}, {
+	"_id": "mo3CBazpjQbAtePwy",
+	"code": "MY",
+	"name": "Malaysia",
+	"curr_name": "Malaysian Ringgit",
+	"curr_sym": "MYR",
+	"curr_br": "",
+	"xval": 3.6147,
+
+}, {
+	"_id": "PzW9ETmNSHeT2zXuW",
+	"code": "MV",
+	"name": "Maldives",
+	"curr_name": "Rufiyaa",
+	"curr_sym": "MVR",
+	"curr_br": "MYR",
+	"xval": 15.35,
+
+}, {
+	"_id": "pX59EC3FCwvdhN9Pw",
+	"code": "ML",
+	"name": "Mali",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "XdfbQoJBnEzA8TeGM",
+	"code": "MT",
+	"name": "Malta",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "pWGuu9bG8niTzo48c",
+	"code": "MH",
+	"name": "Marshall Islands",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "CoCThpZFcAWJe8Q4n",
+	"code": "MQ",
+	"name": "Martinique",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "q7NoMXG5o4PR6jPNP",
+	"code": "MR",
+	"name": "Mauritania",
+	"curr_name": "Ouguiya",
+	"curr_sym": "MRO",
+	"curr_br": "",
+	"xval": NumberInt(291),
+
+}, {
+	"_id": "knw3o9iHMjY9PnbCB",
+	"code": "MU",
+	"name": "Mauritius",
+	"curr_name": "Mauritius Rupee",
+	"curr_sym": "MUR",
+	"curr_br": "",
+	"xval": 33.7,
+
+}, {
+	"_id": "sDbrMFk7Lm9YydpYS",
+	"code": "YT",
+	"name": "Mayotte",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "GpauEnaLfLhGjdJhf",
+	"code": "MX",
+	"name": "Mexico",
+	"curr_name": "Mexican Peso",
+	"curr_sym": "MXN",
+	"curr_br": "",
+	"xval": 14.9519,
+
+}, {
+	"_id": "xmukhCyMpv9wH22zc",
+	"code": "FM",
+	"name": "Micronesia, Federate",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "MMzX359utna3hsJmv",
+	"code": "MD",
+	"name": "Moldova, Republic of",
+	"curr_name": "Moldovan Leu",
+	"curr_sym": "MDL",
+	"curr_br": "",
+	"xval": 18.45,
+
+}, {
+	"_id": "MtxNadxTPuSMSJHgb",
+	"code": "MC",
+	"name": "Monaco",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "biYnQatXAmrrnYg3u",
+	"code": "MN",
+	"name": "Mongolia",
+	"curr_name": "Tugrik",
+	"curr_sym": "MNT",
+	"curr_br": "",
+	"xval": 1971.5,
+
+}, {
+	"_id": "nZGcxCJRCnHcRpq77",
+	"code": "ME",
+	"name": "Montenegro",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "PJKERyRFPRYXpTExQ",
+	"code": "MS",
+	"name": "Montserrat",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "bt47JjGskzDbcQg23",
+	"code": "MA",
+	"name": "Morocco",
+	"curr_name": "Moroccan Dirham",
+	"curr_sym": "MAD",
+	"curr_br": "",
+	"xval": 9.6413,
+
+}, {
+	"_id": "LtLiRDH4FAzLCENxL",
+	"code": "MZ",
+	"name": "Mozambique",
+	"curr_name": "Mozambique Metical",
+	"curr_sym": "MZN",
+	"curr_br": "",
+	"xval": 33.86,
+
+}, {
+	"_id": "j7trCroDKcsvQ72sW",
+	"code": "MM",
+	"name": "Myanmar",
+	"curr_name": "Kyat",
+	"curr_sym": "MMK",
+	"curr_br": "",
+	"xval": 1036.1,
+
+}, {
+	"_id": "JDbELrDwH6HxRTb8h",
+	"code": "NA",
+	"name": "Namibia",
+	"curr_name": "Namibia Dollar",
+	"curr_sym": "NAD",
+	"curr_br": "",
+	"xval": 11.6908,
+
+}, {
+	"_id": "uTgfpzqodzwZBFBLa",
+	"code": "NR",
+	"name": "Nauru",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "3p3CnpcePm5JkcBPk",
+	"code": "NP",
+	"name": "Nepal",
+	"curr_name": "Nepalese Rupee",
+	"curr_sym": "NPR",
+	"curr_br": "",
+	"xval": 98.888,
+
+}, {
+	"_id": "krnkQnrzpvzt75oWC",
+	"code": "NL",
+	"name": "Netherlands[note 1]",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "JiJ5qEQFzXPWqB3uD",
+	"code": "NC",
+	"name": "New Caledonia",
+	"curr_name": "CFP Franc",
+	"curr_sym": "XPF",
+	"curr_br": "",
+	"xval": 106.589,
+
+}, {
+	"_id": "xb2ALT6m8qvpMLzB8",
+	"code": "NZ",
+	"name": "New Zealand",
+	"curr_name": "New Zealand Dollar",
+	"curr_sym": "NZD",
+	"curr_br": "NZD",
+	"xval": 1.3233,
+
+}, {
+	"_id": "GGEJYkiMWHbjG4YnX",
+	"code": "NI",
+	"name": "Nicaragua",
+	"curr_name": "Cordoba Oro",
+	"curr_sym": "NIO",
+	"curr_br": "",
+	"xval": 26.8054,
+
+}, {
+	"_id": "xGYgMwpCEa2k2pkiJ",
+	"code": "NE",
+	"name": "Niger",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "WjyfiGD6C2J32EsZv",
+	"code": "NG",
+	"name": "Nigeria",
+	"curr_name": "Naira",
+	"curr_sym": "NGN",
+	"curr_br": "&#8358",
+	"xval": 202.55,
+
+}, {
+	"_id": "c7TmgWWegEijjkGfX",
+	"code": "NU",
+	"name": "Niue",
+	"curr_name": "New Zealand Dollar",
+	"curr_sym": "NZD",
+	"curr_br": "NZD",
+	"xval": 1.3233,
+
+}, {
+	"_id": "2PT3cBHPAjGdBPwyC",
+	"code": "NF",
+	"name": "Norfolk Island",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "Sb2ZvcfkhtxCkx6Gd",
+	"code": "MP",
+	"name": "Northern Mariana Isl",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "ERut2J9GqbHwpHdjv",
+	"code": "NO",
+	"name": "Norway",
+	"curr_name": "Norwegian Krone",
+	"curr_sym": "NOK",
+	"curr_br": "NOK",
+	"xval": 7.668,
+
+}, {
+	"_id": "pm6T27R4P2w6QS6up",
+	"code": "OM",
+	"name": "Oman",
+	"curr_name": "Rial Omani",
+	"curr_sym": "OMR",
+	"curr_br": "",
+	"xval": 0.3851,
+
+}, {
+	"_id": "94z4QxPstD5fpgiyC",
+	"code": "PK",
+	"name": "Pakistan",
+	"curr_name": "Pakistan Rupee",
+	"curr_sym": "PKR",
+	"curr_br": "",
+	"xval": 101.835,
+
+}, {
+	"_id": "KYFGdrZKnPqCYPW6v",
+	"code": "PW",
+	"name": "Palau",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "gfdr5azhbXaHnyPNM",
+	"code": "PA",
+	"name": "Panama",
+	"curr_name": "Balboa",
+	"curr_sym": "PAB",
+	"curr_br": "",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "cf3doamcTaZCBkDcT",
+	"code": "PG",
+	"name": "Papua New Guinea",
+	"curr_name": "Kina",
+	"curr_sym": "PGK",
+	"curr_br": "",
+	"xval": 2.6687,
+
+}, {
+	"_id": "kiTSc6n7ysDY2SqKh",
+	"code": "PY",
+	"name": "Paraguay",
+	"curr_name": "Guarani",
+	"curr_sym": "PYG",
+	"curr_br": "&#8370",
+	"xval": 4724.9,
+
+}, {
+	"_id": "GCv6YPPyqXWXL4AqJ",
+	"code": "PE",
+	"name": "Peru",
+	"curr_name": "Nuevo Sol",
+	"curr_sym": "PEN",
+	"curr_br": "",
+	"xval": 3.0945,
+
+}, {
+	"_id": "SSMdRHxSbRYDBugpL",
+	"code": "PH",
+	"name": "Philippines",
+	"curr_name": "Philippine Peso",
+	"curr_sym": "PHP",
+	"curr_br": "&#8369",
+	"xval": 44.0995,
+
+}, {
+	"_id": "8QzxjJ3utdNSa8msJ",
+	"code": "PN",
+	"name": "Pitcairn",
+	"curr_name": "New Zealand Dollar",
+	"curr_sym": "NZD",
+	"curr_br": "NZD",
+	"xval": 1.3233,
+
+}, {
+	"_id": "mZcPSFd7PjRY6Xrae",
+	"code": "PL",
+	"name": "Poland",
+	"curr_name": "Zloty",
+	"curr_sym": "PLN",
+	"curr_br": "z&#322",
+	"xval": 3.7064,
+
+}, {
+	"_id": "N2JAXgegLsT6Suzgs",
+	"code": "PT",
+	"name": "Portugal",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "Qyx3wRbokLEser9rR",
+	"code": "PR",
+	"name": "Puerto Rico",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "iy7wpjSAXiPkGZDjM",
+	"code": "QA",
+	"name": "Qatar",
+	"curr_name": "Qatari Rial",
+	"curr_sym": "QAR",
+	"curr_br": "",
+	"xval": 3.6412,
+
+}, {
+	"_id": "n3fqQc884cjGdpH58",
+	"code": "RE",
+	"name": "R�union",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "eNJCLLpPwTLpZhMF2",
+	"code": "RO",
+	"name": "Romania",
+	"curr_name": "New Romanian Leu",
+	"curr_sym": "RON",
+	"curr_br": "lei",
+	"xval": 3.9618,
+
+}, {
+	"_id": "YrwgRzAiuvfLHmTvJ",
+	"code": "RU",
+	"name": "Russian Federation",
+	"curr_name": "Russian Ruble",
+	"curr_sym": "RUB",
+	"curr_br": "&#1088;&#1091;&#1073",
+	"xval": 61.9545,
+
+}, {
+	"_id": "WNvRxBtaSepyvXjvq",
+	"code": "RW",
+	"name": "Rwanda",
+	"curr_name": "Rwanda Franc",
+	"curr_sym": "RWF",
+	"curr_br": "",
+	"xval": NumberInt(689),
+
+}, {
+	"_id": "D8pk3EwSKGp3AZH8P",
+	"code": "BL",
+	"name": "Saint Barth�lemy",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "gAo6Y9oudSgziwNQ8",
+	"code": "SH",
+	"name": "Saint Helena, Ascens",
+	"curr_name": "Saint Helena Pound",
+	"curr_sym": "SHP",
+	"curr_br": "",
+	"xval": 0.6479,
+
+}, {
+	"_id": "wRen6ksXwmXMWckMN",
+	"code": "KN",
+	"name": "Saint Kitts and Nevi",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "NsrMfrWJemY2DLLt5",
+	"code": "LC",
+	"name": "Saint Lucia",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "HWiDpYtEPPYA6mewt",
+	"code": "MF",
+	"name": "Saint Martin (French",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "HXbTc9qEbtAktMcMd",
+	"code": "PM",
+	"name": "Saint Pierre and Miq",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "63Nf5irxyuxeWpW36",
+	"code": "VC",
+	"name": "Saint Vincent and th",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7,
+
+}, {
+	"_id": "bhgn9W7oSQETJgR8c",
+	"code": "WS",
+	"name": "Samoa",
+	"curr_name": "Tala",
+	"curr_sym": "WST",
+	"curr_br": "",
+	"xval": 2.4813,
+
+}, {
+	"_id": "r7sv55NRHrs5EcnHX",
+	"code": "SM",
+	"name": "San Marino",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "yJSk69FdpKKrrP5y3",
+	"code": "ST",
+	"name": "Sao Tome and Princip",
+	"curr_name": "Dobra",
+	"curr_sym": "STD",
+	"curr_br": "",
+	"xval": NumberInt(21870),
+
+}, {
+	"_id": "xEuCKbqo6fHofpda5",
+	"code": "SA",
+	"name": "Saudi Arabia",
+	"curr_name": "Saudi Riyal",
+	"curr_sym": "SAR",
+	"curr_br": "",
+	"xval": 3.7503,
+
+}, {
+	"_id": "waEYgKy9LYv9zbanK",
+	"code": "SN",
+	"name": "Senegal",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "tmYbPs99a2HXWfNyZ",
+	"code": "RS",
+	"name": "Serbia",
+	"curr_name": "Serbian Dinar",
+	"curr_sym": "RSD",
+	"curr_br": "",
+	"xval": 107.295,
+
+}, {
+	"_id": "6CdTZ37aqPhkaypDr",
+	"code": "SC",
+	"name": "Seychelles",
+	"curr_name": "Seychelles Rupee",
+	"curr_sym": "SCR",
+	"curr_br": "",
+	"xval": 13.976,
+
+}, {
+	"_id": "ZR657gZnyrud9ZLBK",
+	"code": "SL",
+	"name": "Sierra Leone",
+	"curr_name": "Leone",
+	"curr_sym": "SLL",
+	"curr_br": "",
+	"xval": NumberInt(4395),
+
+}, {
+	"_id": "5xZX8yK6EeFMDLN78",
+	"code": "SG",
+	"name": "Singapore",
+	"curr_name": "Singapore Dollar",
+	"curr_sym": "SGD",
+	"curr_br": "S$",
+	"xval": 1.3616,
+
+}, {
+	"_id": "HzYAhsPTnzjDTuduo",
+	"code": "SX",
+	"name": "Sint Maarten (Dutch ",
+	"curr_name": "Netherlands Antillea",
+	"curr_sym": "ANG",
+	"curr_br": "",
+	"xval": 1.79,
+
+}, {
+	"_id": "5K3yLjgp9SghpEEHX",
+	"code": "SK",
+	"name": "Slovakia",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "LkFrrMe2zRfaznex7",
+	"code": "SI",
+	"name": "Slovenia",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "hm5AMBQrkzEDaMYqq",
+	"code": "SB",
+	"name": "Solomon Islands",
+	"curr_name": "Solomon Islands Doll",
+	"curr_sym": "SBD",
+	"curr_br": "",
+	"xval": 7.753,
+
+}, {
+	"_id": "mtDkgi9bkvi8hvHq2",
+	"code": "SO",
+	"name": "Somalia",
+	"curr_name": "Somali Shilling",
+	"curr_sym": "SOS",
+	"curr_br": "",
+	"xval": 697.45,
+
+}, {
+	"_id": "c49J28vSXLPv7tJ4S",
+	"code": "ZA",
+	"name": "South Africa",
+	"curr_name": "Rand",
+	"curr_sym": "ZAR",
+	"curr_br": "R",
+	"xval": 11.6761,
+
+}, {
+	"_id": "Xe36fH5crzZwY863u",
+	"code": "SS",
+	"name": "South Sudan",
+	"curr_name": "South Sudanese Pound",
+	"curr_sym": "SSP",
+	"curr_br": "",
+	"xval": NumberInt(-1),
+
+}, {
+	"_id": "LXnvLD5JNpQZpbBky",
+	"code": "ES",
+	"name": "Spain",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934,
+
+}, {
+	"_id": "tp4dY459WGbSyvCtR",
+	"code": "LK",
+	"name": "Sri Lanka",
+	"curr_name": "Sri Lanka Rupee",
+	"curr_sym": "LKR",
+	"curr_br": "SLRs",
+	"xval": 133.1,
+
+}, {
+	"_id": "DB8eYahAq3WsNbwos",
+	"code": "SD",
+	"name": "Sudan",
+	"curr_name": "Sudanese Pound",
+	"curr_sym": "SDG",
+	"curr_br": "",
+	"xval": 5.6925,
+
+}, {
+	"_id": "Lss7aCczL2bwpzkKT",
+	"code": "SR",
+	"name": "Suriname",
+	"curr_name": "Surinam Dollar",
+	"curr_sym": "SRD",
+	"curr_br": "",
+	"xval": 3.3,
+
+}, {
+	"_id": "wNXvStafFNxGD83Hr",
+	"code": "SJ",
+	"name": "Svalbard and Jan May",
+	"curr_name": "Norwegian Krone",
+	"curr_sym": "NOK",
+	"curr_br": "NOK",
+	"xval": 7.668,
+
+}, {
+	"_id": "QwW4mtFiZFkCBC8vW",
+	"code": "SZ",
+	"name": "Swaziland",
+	"curr_name": "Lilangeni",
+	"curr_sym": "SZL",
+	"curr_br": "",
+	"xval": 11.6908,
+
+}, {
+	"_id": "Y5sDAkXzxyJvAT8ui",
+	"code": "SE",
+	"name": "Sweden",
+	"curr_name": "Swedish Krona",
+	"curr_sym": "SEK",
+	"curr_br": "kr",
+	"xval": 8.3563,
+
+}, {
+	"_id": "u47mjBrD6QucW9wqM",
+	"code": "CH",
+	"name": "Switzerland",
+	"curr_name": "Swiss Franc",
+	"curr_sym": "CHF",
+	"curr_br": "CHF",
+	"xval": 0.9518,
+
+}, {
+	"_id": "L7p5u88ww33yngZEY",
+	"code": "SY",
+	"name": "Syrian Arab Republic",
+	"curr_name": "Syrian Pound",
+	"curr_sym": "SYP",
+	"curr_br": "",
+	"xval": 188.929,
+
+}, {
+	"_id": "7JrDx37Wxdf4rHpeY",
+	"code": "TW",
+	"name": "Taiwan, Province of ",
+	"curr_name": "New Taiwan Dollar",
+	"curr_sym": "TWD",
+	"curr_br": "",
+	"xval": 31.455,
+
+}, {
+	"_id": "xcA4tNoErZBHzPK5W",
+	"code": "TJ",
+	"name": "Tajikistan",
+	"curr_name": "Somoni",
+	"curr_sym": "TJS",
+	"curr_br": "",
+	"xval": 5.4432,
+
+}, {
+	"_id": "9ZeMifngqPY2wjRg7",
+	"code": "TZ",
+	"name": "Tanzania, United Rep",
+	"curr_name": "Tanzanian Shilling",
+	"curr_sym": "TZS",
+	"curr_br": "",
+	"xval": 1832.4,
+
+}, {
+	"_id": "G7jMgHveZohARxEN4",
+	"code": "TH",
+	"name": "Thailand",
+	"curr_name": "Baht",
+	"curr_sym": "THB",
+	"curr_br": "&#3647",
+	"xval": 32.3765,
+
+}, {
+	"_id": "5d5MWyokuevqmRa92",
+	"code": "TL",
+	"name": "Timor-Leste",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "MjaY2KsBMcAbfhXzr",
+	"code": "TG",
+	"name": "Togo",
+	"curr_name": "CFA Franc BCEAO",
+	"curr_sym": "XOF",
+	"curr_br": "",
+	"xval": 585.911,
+
+}, {
+	"_id": "JenysvQjAe6WMoTDS",
+	"code": "TK",
+	"name": "Tokelau",
+	"curr_name": "New Zealand Dollar",
+	"curr_sym": "NZD",
+	"curr_br": "NZD",
+	"xval": 1.3233,
+
+}, {
+	"_id": "dbdQQ5XkYdgPJ4KGk",
+	"code": "TO",
+	"name": "Tonga",
+	"curr_name": "Pa�anga",
+	"curr_sym": "TOP",
+	"curr_br": "",
+	"xval": 1.97,
+
+}, {
+	"_id": "AXQR3TJroEubrNXvc",
+	"code": "TT",
+	"name": "Trinidad and Tobago",
+	"curr_name": "Trinidad and Tobago ",
+	"curr_sym": "TTD",
+	"curr_br": "",
+	"xval": 6.3616,
+
+}, {
+	"_id": "m6RWwt5gKebFxMyer",
+	"code": "TN",
+	"name": "Tunisia",
+	"curr_name": "Tunisian Dinar",
+	"curr_sym": "TND",
+	"curr_br": "",
+	"xval": 1.9431,
+
+}, {
+	"_id": "Er9H3btNGdBgLWtDv",
+	"code": "TR",
+	"name": "Turkey",
+	"curr_name": "Turkish Lira",
+	"curr_sym": "TRY",
+	"curr_br": "TRY",
+	"xval": 2.5096,
+
+}, {
+	"_id": "at3hK2oCoB7u7NBp5",
+	"code": "TM",
+	"name": "Turkmenistan",
+	"curr_name": "Turkmenistan New Man",
+	"curr_sym": "TMT",
+	"curr_br": "",
+	"xval": 3.5,
+
+}, {
+	"_id": "Qg2QZPEMbb5zjLwgE",
+	"code": "TC",
+	"name": "Turks and Caicos Isl",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "gph3d2fnGjBFDR5z9",
+	"code": "TV",
+	"name": "Tuvalu",
+	"curr_name": "Australian Dollar",
+	"curr_sym": "AUD",
+	"curr_br": "AU $",
+	"xval": 1.2804,
+
+}, {
+	"_id": "KqZC4wQc4jsMvkKCR",
+	"code": "UG",
+	"name": "Uganda",
+	"curr_name": "Uganda Shilling",
+	"curr_sym": "UGX",
+	"curr_br": "",
+	"xval": NumberInt(2890),
+
+}, {
+	"_id": "qFJohZmhwrKmKQMan",
+	"code": "UA",
+	"name": "Ukraine",
+	"curr_name": "Hryvnia",
+	"curr_sym": "UAH",
+	"curr_br": "",
+	"xval": 27.25,
+
+}, {
+	"_id": "ShYeiNDAsShTAyphw",
+	"code": "AE",
+	"name": "United Arab Emirates",
+	"curr_name": "UAE Dirham",
+	"curr_sym": "AED",
+	"curr_br": "",
+	"xval": 3.673,
+
+}, {
+	"_id": "g3h3rnGATijffycYS",
+	"code": "GB",
+	"name": "United Kingdom",
+	"curr_name": "Pound Sterling",
+	"curr_sym": "GBP",
+	"curr_br": "&pound",
+	"xval": 0.6479,
+
+}, {
+	"_id": "5YZjgzSoHDQ9b2hBA",
+	"code": "US",
+	"name": "United States",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "tToNQo8ZDMtgbENPy",
+	"code": "UM",
+	"name": "United States Minor ",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "pDLwpFSbs4XaNFC9d",
+	"code": "UY",
+	"name": "Uruguay",
+	"curr_name": "Peso Uruguayo",
+	"curr_sym": "UYU",
+	"curr_br": "",
+	"xval": 24.575,
+
+}, {
+	"_id": "GB77ad3qy2T3RM2DG",
+	"code": "UZ",
+	"name": "Uzbekistan",
+	"curr_name": "Uzbekistan Sum",
+	"curr_sym": "UZS",
+	"curr_br": "",
+	"xval": 2460.32,
+
+}, {
+	"_id": "HWPjDhcjjtJqaeDhw",
+	"code": "VU",
+	"name": "Vanuatu",
+	"curr_name": "Vatu",
+	"curr_sym": "VUV",
+	"curr_br": "",
+	"xval": 107.71,
+
+}, {
+	"_id": "TpfCgeqtRLzcQ9nhc",
+	"code": "VE",
+	"name": "Venezuela, Bolivaria",
+	"curr_name": "Bolivar",
+	"curr_sym": "VEF",
+	"curr_br": "",
+	"xval": 6.35,
+
+}, {
+	"_id": "m32Rus72zc9JegwwC",
+	"code": "VN",
+	"name": "Viet Nam",
+	"curr_name": "Dong",
+	"curr_sym": "VND",
+	"curr_br": "",
+	"xval": 21347.5,
+
+}, {
+	"_id": "shL6szGj8wPSdMeYw",
+	"code": "VG",
+	"name": "Virgin Islands, Brit",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "qgJbvDsDgSMYKjMw7",
+	"code": "VI",
+	"name": "Virgin Islands, U.S.",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1),
+
+}, {
+	"_id": "Xq48sWEktqC9wPqqF",
+	"code": "WF",
+	"name": "Wallis and Futuna",
+	"curr_name": "CFP Franc",
+	"curr_sym": "XPF",
+	"curr_br": "",
+	"xval": 106.589,
+
+}, {
+	"_id": "9xihcWkN3xgwpitin",
+	"code": "EH",
+	"name": "Western Sahara",
+	"curr_name": "Moroccan Dirham",
+	"curr_sym": "MAD",
+	"curr_br": "",
+	"xval": 9.6413,
+
+}, {
+	"_id": "MKqNucL7AL6v4pWYD",
+	"code": "YE",
+	"name": "Yemen",
+	"curr_name": "Yemeni Rial",
+	"curr_sym": "YER",
+	"curr_br": "",
+	"xval": 215.08,
+
+}, {
+	"_id": "niAJE4DZ4QF27f5ji",
+	"code": "ZM",
+	"name": "Zambia",
+	"curr_name": "Zambian Kwacha",
+	"curr_sym": "ZMW",
+	"curr_br": "",
+	"xval": 6.9,
+
+}, {
+	"_id": "wfTz28CnufL95czd5",
+	"code": "ZW",
+	"name": "Zimbabwe",
+	"curr_name": "Zimbabwe Dollar",
+	"curr_sym": "ZWL",
+	"curr_br": "",
+	"xval": 322.355,
+
+}]

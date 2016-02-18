@@ -1,0 +1,64 @@
+<md-content class="md-padding bodyGrdColr" layout-xs="column" layout="row" layout-padding layout-wrap layout-fill ng-cloak>
+  <div flex-xs flex-gt-xs="100" layout="column">
+    <md-content layout-wrap layout="row" class="littleWhiteFrame">
+      <md-toolbar class="md-accent">
+        <div class="md-toolbar-tools subheadings">
+          <h2>
+          <span class="subheading-fontcolor">Manage Existing Packages</span>
+        </h2>
+          <span flex></span>
+          <md-button class="md-raised" ng-href="/create-package">CREATE NEW PACKAGE</md-button>
+        </div>
+        <md-divider></md-divider>
+      </md-toolbar>
+      <md-card flex='30' class="littleWhiteFrame" ng-repeat="package in subscriptionCtrl.packages">
+        <md-toolbar class="tilte_bar">
+          <h4 class="title">{{package.name}}</h4></md-toolbar>
+        <md-card-content>
+          <md-list>
+            <md-item>
+              <md-item-content>
+                <div class="md-tile-content">
+                  <h3 class="title">${{package.price.monthly}}/mo</h3>
+                  <md-divider></md-divider>
+                  <p class="title">${{package.price.yearly}}/yr</p>
+                  <md-divider></md-divider>
+                  <p class="title">Students Supported :{{package.price.stud_sprt}}</p>
+                  <md-divider></md-divider>
+                  <p class="title">
+                    Luckily we have a handy little directive that will clear that right up!
+                  </p>
+                  <md-divider></md-divider>
+                  <p ng-if="package.status == 'unpublish'">
+                    Status:<span class="status">Published</span>
+                    <p ng-if="package.status == 'unpublish'">
+                    <md-button ng-click="subscriptionCtrl.unpublishPackage(package._id,package.name)" class="md-raised btn"><span class="red">INACTIVE</span></md-button>
+                  
+                  </p>
+                  </p>
+                    
+                  <p ng-if="package.status == 'inactive'">
+                    Status:<span class="status">Inactive</span>
+                  </p>
+                  
+                  <p></p>
+                  <div ng-if="package.status == 'save'">
+                    Status:Draft
+                    <div layout="row" class="btns">
+                      <md-button ng-href="/edit-package/{{package._id}}/" class="md-raised btn btnedit"><span class="black">EDIT</span></md-button>
+                      <md-button class="md-raised btn btndelete" ng-click="subscriptionCtrl.deletePackage(package._id,package.name)"><span class="redish">DELETE</span></md-button>
+                      <md-button class="md-raised btn btnpublish" ng-click="subscriptionCtrl.publishPackage(package._id,package.name)"><span class="green">PUBLISH</span></md-button>
+                    </div>
+                  </div>
+                  <p></p>
+                  <md-divider></md-divider>
+                  <!-- <p class="title">1048 Subscriptions</p> -->
+                </div>
+              </md-item-content>
+            </md-item>
+          </md-list>
+        </md-card-content>
+      </md-card>
+    </md-content>
+  </div>
+</md-content>

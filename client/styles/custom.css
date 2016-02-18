@@ -1,0 +1,217 @@
+/****************************
+Author      : Arun
+****************************/
+
+
+/**For subscription package**/
+
+.widthe {
+  width: 100% !important;
+}
+
+.subheadings {
+  background-color: white;
+}
+
+.subheading-fontcolor {
+  color: #4AC8FF;
+}
+
+.side {
+  margin-left: 1% !important
+}
+
+.txtpad {
+  padding: 10px !important;
+}
+
+.txtColor {
+  /*color: #00ACC1 !important;*/
+}
+
+.txtHeight {
+  height: 6px !important;
+}
+
+.layer {
+  max-width: 23% !important;
+}
+
+.tilte_bar {
+  background-color: #00BCD4 !important;
+  height: 60px !important;
+}
+
+.title {
+  text-align: center;
+}
+
+.heads {
+  padding-top: 7% !important;
+}
+
+.checkbxinput {
+  width: 18px;
+  height: 18px;
+  background-color: #ffffff;
+  display: inline-block !important;
+  border-radius: 2px;
+}
+
+.module_height {
+  min-height: 342px !important;
+}
+
+.priceClr {
+  color: #7D7979 !important
+}
+
+.prices {
+  padding-top: 2% !important;
+  margin-left: 1%;
+}
+
+.btndelete {
+  margin-right: 5% !important;
+}
+
+.red {
+  color: #CF4B47;
+}
+
+.btn {
+  margin: 3% !important;
+  float: right;
+}
+
+.btns {
+  width: 0% !important;
+}
+
+.studSpport {
+  margin-top: 0%;
+  margin-left: 1%;
+}
+
+
+/**************Announcement*******************/
+
+.margin {
+  margin-top: 1% !important;
+}
+
+.bodyGrdColr {
+  background-color: #EBEEF3 !important
+}
+
+.drpBoxnew {
+  margin-right: 15%;
+}
+
+.drpBoxnew {
+  margin-right: 15%;
+}
+
+.btnall {
+  margin-right: 15% !important;
+}
+
+.btnClr {
+  color: #ffffff;
+  left: 85%;
+  background-color: #00A1FF !important;
+}
+
+.txt {
+  font-size: 14px;
+}
+
+.drpBox {
+  margin-top: 1px;
+  margin-bottom: -40px;
+  margin-left: 40%;
+}
+
+.errormsg {
+  color: red;
+}
+
+
+/************************Arun************************************/
+
+.md-container1 {
+  margin-left: 91px;
+  margin-top: 65px;
+}
+
+.md-radio-button {
+  display: grid;
+}
+
+.ripplelink {
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+}
+
+.md-toast-content {
+  background-color: #323232;
+  color: '{{background-50}}';
+}
+
+
+
+/****************************************************
+Author    : Sunu P S
+*****************************************************/
+
+
+/******manage-schools*******/
+
+/*manage-schools style start
+  Author : Sunu P S;
+*/
+
+
+.btnSearch {
+  margin-top: 2%;
+  margin-bottom: 6%;
+  width: 18%;
+}
+
+.schoolTableStyle {
+  border-collapse: collapse;
+  width: 100%;
+  color: grey;
+}
+
+.school-th-style,
+.school-td-style {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.school-list-style {
+  background-color: white;
+}
+
+.package-view-style {
+  margin-left: 1%;
+  margin-right: .75%;
+  
+}
+
+.h2-package{
+  color: #B71C1C !important;
+  font-style: bold;
+}
+
+/*Manage-school style end*/
+
+
+/***/
+
+
+/*************************SUNU******************************/

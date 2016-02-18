@@ -1,0 +1,14 @@
+<md-sidenav layout="column" md-whiteframe="1" class="md-sidenav-left leftSideNav" md-component-id="left" md-is-locked-open="$mdMedia('gt-xs')" layout-fill>
+  <md-toolbar layout="row" layout-align="center center" class="md-hue-2" md-scroll-shrink>
+    <a class="logo-anchor" ng-href="/" href="/">
+      <img alt="" src="logo.svg">
+    </a>
+  </md-toolbar>
+  <md-list>
+    <md-list-item ng-click="navigateTo($event)" ng-repeat="setting in sidenavCtrl.settings" ui-sref="{{ setting.url }}" class="md-hue-1">
+      <i class="material-icons" layout-padding>{{ setting.icon }}</i>
+      <p> {{ setting.name }} </p>
+      <md-divider></md-divider>
+    </md-list-item>
+  </md-list>
+</md-sidenav>

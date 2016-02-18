@@ -1,0 +1,157 @@
+<style>
+	.dialogdemoBasicUsage #popupContainer { 
+    /*padding: 7px 142px;*/
+}
+  position: relative; }
+
+.dialogdemoBasicUsage .footer {
+  width: 100%;
+  text-align: center;
+  margin-left: 20px; }
+
+.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
+  font-size: 0.8em;
+  margin-top: 25px; }
+.heading{
+	background-color: #4DD0E2;
+  /*padding: 7px 142px;*/
+}
+.overflow{
+  padding: 7px 142px;
+  overflow:none;
+}
+.full_modal{
+      /*padding: 7px 142px;*/
+}
+.form_class{
+      /*padding: 7px 142px;*/
+}
+</style>
+
+<md-dialog aria-label="Mango (Fruit)" class="full_modal"  ng-cloak>
+  <form class="form_class">
+    <md-toolbar>
+      <div class="md-toolbar-tools heading">
+        <h2 ><font color="#026779">View Details</font></h2>
+        <span flex></span>
+        <md-button class="md-icon-button" >
+          <md-icon aria-label="Close dialog">X</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+<div layout-xs="column" layout="row" layout-wrap layout-padding layout-fill>
+  <div layout="column" flex="50">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>User Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Name</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.name}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Email</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.email}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Phone Number</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.phoneNumber}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Address Line 1</p> <span class="flex"></span>
+        <p class="md-body-1" flex="25">{{obj.address1}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Address Line 2</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.address2}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">City</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.city}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">State</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.state}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Pincode</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.pincode}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Country</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.country}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="50">
+    <div class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>School Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Name of School</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.nameSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="25">Address Line 1</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="25">{{obj.addressSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+    <div  class="littleWhiteFrame secondFrame">
+      <div layout="row" class="requestDetailElems">
+        <!-- <h4 class="md-subhead" layout-margin>School Domain Name Requested</h4> -->
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <!-- <p class="md-body-1 overflow" flex="25">Requested Name</p> <span class="flex" flex=""></span> -->
+<!--         <p class="md-body-1 overflow" flex="25">{{approvedControl.purchase.urlSchool+'.cordovacloud.com'}}</p> -->
+      </div>
+      <md-divider></md-divider>
+      <div layout="column" class="requestDetailElems">
+        <div layout="row" layout-align="center center" layout-margin class="overflow">
+          <md-input-container flex="100">
+            <!-- <label>Preferred Subdomain</label> -->
+            <input type="text" ng-model="purchaseRequest.purchase.urlSchool" />
+          </md-input-container>
+          <!-- <p flex="25" class="pUrl md-body-1 overflow">.cordovacloud.com</p> -->
+        </div>
+        <!-- <md-button class="md-raised btn2">Check Availability</md-button> -->
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="100">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <h4 class="md-subhead" layout-margin>Package Selected</h4>
+      </div>
+      <md-divider></md-divider>
+     
+      <p layout-padding>{{obj.packageType}}</p>
+    </div>
+  </div>
+
+</div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <!-- <md-button href="http://en.wikipedia.org/wiki/Mango" target="_blank" md-autofocus>
+        More on Wikipedia
+      </md-button> -->
+
+    </md-dialog-actions>
+  </form>
+</md-dialog>	

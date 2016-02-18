@@ -1,0 +1,120 @@
+<md-content class="md-padding bodyGrdColr" layout-xs="column" layout="column" layout-padding layout-wrap layout-fill ng-cloak>
+  <div layout="row">
+    <div class="littleWhiteFrame" flex="50" layout="column">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>User Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="column" flex-offset="5">
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Contact Person</p>
+          <p flex="45" class="md-body-custom">Contact Person</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Name of School</p>
+          <p flex="45" class="md-body-custom">Name of School</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Phone Number</p>
+          <p flex="45" class="md-body-custom">Phone Number</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Email</p>
+          <p flex="45" class="md-body-custom">Email</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Address 1</p>
+          <p flex="45" class="md-body-custom">Address 1</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Address 2</p>
+          <p flex="45" class="md-body-custom">Address 2</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">City</p>
+          <p flex="45" class="md-body-custom">City</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">State</p>
+          <p flex="45" class="md-body-custom">State</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Pincode</p>
+          <p flex="45" class="md-body-custom">Pincode</p>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row">
+          <p flex="10"></p>
+          <p flex="45" class="md-body-custom">Country</p>
+          <p flex="45" class="md-body-custom">Country</p>
+        </div>
+      </div>
+    </div>
+    <div layout="column" flex="50" ng-model="viewSchoolDetailCtrl.school">
+      <div class="littleWhiteFrame" flex="50" flex-offset="5" layout="column">
+        <div layout="row" class="requestDetailElems">
+          <h4 class="md-subhead" layout-margin>School Details</h4>
+        </div>
+        <md-divider></md-divider>
+        <div flex layout="column" flex-offset="5">
+          <div layout="row">
+            <p flex="5"></p>
+            <p flex="40" class="md-body-custom">Name of School</p>
+            <p flex="55" class="md-body-custom">{{viewSchoolDetailCtrl.school.name}}</p>
+          </div>
+          <md-divider></md-divider>
+          <div layout="row">
+            <p flex="5"></p>
+            <p flex="40" class="md-body-custom">Address Line 1</p>
+            <div flex="55" layout="column">
+              <span class="md-body-custom">{{viewSchoolDetailCtrl.school.address}}</span>
+              <span class="md-body-custom"></span>
+              <span class="md-body-custom"></span>
+              <span class="md-body-custom"></span>
+              <span class="md-body-custom">{{viewSchoolDetailCtrl.school.country}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <div class="littleWhiteFrame" flex="50" flex-offset="5" layout="column">
+        <div layout="row" class="requestDetailElems">
+          <h4 class="md-subhead" layout-margin>School Domain Name Requested</h4>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row" flex-offset="5">
+          <p flex="5"></p>
+          <p flex="40" class="md-body-custom">Requested Name : </p>
+          <p flex="55" class="md-body-custom" ng-model='viewSchoolDetailCtrl.school'>{{viewSchoolDetailCtrl.school.tld.requested}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span></span>
+  <div class="littleWhiteFrame package-view-style" layout="column">
+    <div layout="row" class="requestDetailElems">
+      <h4 class="md-subhead" layout-margin>Package Selected</h4>
+    </div>
+    <md-divider></md-divider>
+    <div flex layout="column">
+      <h4 class="h2-package" layout-margin ng-model='viewSchoolDetailCtrl.school'>{{viewSchoolDetailCtrl.school.package.name}} - {{viewSchoolDetailCtrl.school.package.price.monthly | currency}}</h4>
+    </div>
+  </div>
+</md-content>

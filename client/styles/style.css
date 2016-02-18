@@ -1,0 +1,105 @@
+body {
+  color: #6D6D6D !important;
+}
+
+.leftSideNav {
+  font-size: 13px;
+  font-weight: normal !important;
+  max-width: 235px;
+}
+
+.leftSideNav a{
+    margin: 0 !important;
+}
+
+.searchDiv {
+  top: 3%;
+}
+
+.user {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url('http://placehold.it/350x150');
+}
+
+.usertwo {
+  background-image: url('http://placehold.it/350x150');
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.userName {
+  font-size: 13px;
+}
+
+.popup {
+  max-width: 250px;
+}
+
+.littleWhiteFrame,
+.requestDetailElems.bigWhiteFrame {
+  background-color: white !important;
+  border: 2px solid #E4E5E9;
+  box-shadow: 1px 1px 1px #E4E5E9;
+}
+.littleWhiteFrameNoBorder{
+   background-color: white !important; 
+}
+.md-subhead{
+    color: #02A8F3 !important;
+    font-weight: 
+}
+.md-body-1,.md-body-2{
+    color: #828282 !important;
+}
+.md-body-1{
+    line-height: 7px !important;
+}
+
+
+.littleWhiteFrame.secondFrame {
+  margin-top: 5%;
+}
+
+.pUrl {
+    padding: 3% !important;
+    background-color: #DADADA !important;
+    max-height: 30px;
+    max-width : 175px;
+}
+
+.btn2 {
+  background-color: #4CB04E !important;
+  color: #FFF !important;
+  align-self: flex-end;
+}
+.CountryBox
+{
+      border: 2px solid #E4E5E9;
+      width:90%;
+      padding: 2px 0px 0px 20px ;
+      margin-top: -10px;
+      font:#E4E5E9;
+     
+}
+.editProfilePadding
+{
+  line-height: 1px;
+  padding-left: 10px;
+
+}
+.editProfileMargin
+{
+  margin:0px;
+}

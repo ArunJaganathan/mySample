@@ -1,0 +1,68 @@
+<style>
+class="cp-pen-styles">.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+
+
+.listdemoListControls md-divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+</style>
+<md-toolbar layout="row" class="md-hue-1 nav-head" scroll>
+  <div md-whiteframe="1" class="md-toolbar-tools">
+    <md-button class="md-icon-button" aria-label="Settings" ng-click="headerCtrl.toggleSidenav('left')" hide-gt-sm>
+      <md-icon aria-label="Menu" md-svg-icon="menu.svg"></md-icon>
+    </md-button>
+    <div class="searchDiv" layout="row" flex ng-cloak>
+      <i class="material-icons" layout-padding>search</i>
+      <form ng-submit="$event.preventDefault()">
+        <md-autocomplete ng-disabled="headerCtrl.isDisabled" md-no-cache="headerCtrl.noCache" md-selected-item="headerCtrl.selectedItem" md-search-text-change="headerCtrl.searchTextChange(headerCtrl.searchText)" md-search-text="headerCtrl.searchText" md-selected-item-change="headerCtrl.selectedItemChange(item)" md-items="item in headerCtrl.querySearch(headerCtrl.searchText)" md-item-text="item.display" md-min-length="0" placeholder="Search">
+          <md-item-template>
+            <span md-highlight-text="headerCtrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
+          </md-item-template>
+          <md-not-found>
+            No match "{{headerCtrl.searchText}}" were found.
+            <a ng-click="headerCtrl.newState(headerCtrl.searchText)">Create a new one!</a>
+          </md-not-found>
+        </md-autocomplete>
+      </form>
+    </div>
+    <span class="flex" flex=""></span>
+    <div class="right" hide-sm layout="row">
+      <i class="material-icons" layout-padding>notifications</i>
+      <i class="material-icons" layout-padding ui-sref="platformSettings" style="cursor">settings</i>
+      <p class="userName">{{mainCtrl.currentUser.emails[0].address}}</p>
+    </div>
+    <div class="md-menu-demo" ng-cloak>
+      <div class="menu-demo-container" layout-align="center center" layout="column">
+        <md-menu>
+          <md-button aria-label="Open phone interactions menu" class="md-icon-button" ng-click="headerCtrl.openMenu($mdOpenMenu, $event)">
+            <i class="material-icons userName" layout-padding>keyboard_arrow_down</i>
+          </md-button>
+          <md-menu-content width="4">
+             <md-menu-item>
+                  <md-button ui-sref="myProfile">
+                    <i class="material-icons" >person_pin</i> My Profile
+                  </md-button>
+                </md-menu-item>
+          
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item>
+              <md-button ng-click="headerCtrl.logout()">
+                <i class="material-icons">touch_app</i> Logout
+              </md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+      </div>
+    </div>
+  </div>
+</md-toolbar>

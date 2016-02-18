@@ -1,0 +1,68 @@
+<md-content class="md-padding bodyGrdColr" layout-xs="column" layout="row" layout-padding layout-wrap layout-fill ng-cloak>
+  <div flex-xs flex-gt-xs="100" layout="column">
+    <md-content layout-wrap layout="row" class="littleWhiteFrame">
+      <md-toolbar class="md-accent">
+        <div class="md-toolbar-tools subheadings">
+          <h2>
+          <span class="subheading-fontcolor">Make New Announcements</span>
+        </h2>
+          <span flex></span>
+        </div>
+        <md-divider></md-divider>
+      </md-toolbar>
+      <form name="Form" validation-schema schema="Author" class="widthe margin" id="announcement">
+        <md-input-container class="md-block inset">
+          <label class="txtpad txtColor">Enter here</label>
+          <textarea style={{announcementCtrl.WordLengthStyle}} ng-model="announcementCtrl.dataArry.description" maxlength="150" md-maxlength="150" columns="1" rows="5" ng-change="announcementCtrl.UpdateWordLength()" name="description"></textarea>
+          <p id='announcement-error' class="errormsg">{{errors.description}}</p>
+        </md-input-container>
+        <div class="bottom-sheet-demo drpBox" flex="35">
+          <md-input-container class="md-block {{announcementCtrl.dataArry._id ? 'drpBoxnew' : ''}}">
+            <label class="txtpad txtColor">Send to</label>
+            <md-select ng-model="announcementCtrl.dataArry.send_to" name="send_to">
+              <md-option value="1">All Admin</md-option>
+              <md-option value="2">All Users</md-option>
+            </md-select>
+          </md-input-container>
+          <p id='announcement-send-error' class="errormsg">{{errors.send_to}}</p>
+        </div>
+        <div ng-if="announcementCtrl.dataArry._id" class="{{announcementCtrl.dataArry._id ? 'btnall' : ''}}">
+          <md-button class="md-raised md-primary btnClr" ng-click="announcementCtrl.sendAnnouncement(announcementCtrl.dataArry,'resend')" flex="20">
+            <span class="btnClr">Update & Resend</span></md-button>
+          <md-button class="md-raised md-primary btnClr" ng-click="announcementCtrl.cancelAnnouncement()" flex="10">
+            <span class="btnClr">Cancel</span></md-button>
+        </div>
+        <div ng-if=" ! announcementCtrl.dataArry._id">
+          <md-button class="md-raised md-primary btnClr" ng-click="announcementCtrl.sendAnnouncement('','save')" flex="10">
+            <span class="btnClr">Send</span></md-button>
+        </div>
+      </form>
+    </md-content>
+  </div>
+  <md-card class="littleWhiteFrame widthe">
+    <md-toolbar class="md-accent">
+      <div class="md-toolbar-tools subheadings">
+        <h2>
+          <span class="subheading-fontcolor">Achieved Announcements</span>
+        </h2>
+        <span flex></span>
+      </div>
+      <md-divider></md-divider>
+    </md-toolbar>
+    <md-content class="littleWhiteFrame">
+      <md-list ng-repeat="data in announcementCtrl.achievedArry">
+        <div class="bottom-sheet-demo inset" layout="row" layout-sm="column" layout-align="center">
+          <div flex="15" class="txt">{{data.date_added| date:'dd/MM/yyyy'}}</div>
+          <div flex="45" class="txt">{{data.description | limitTo: 80}} {{data.description.length > 80 ? '...' : ''}}
+          </div>
+          <div flex="45">
+            <md-button class="md-primary md-raised" ng-click="announcementCtrl.viewAnnouncement(data)"><span class="txt">View</span></md-button>
+            <md-button class="md-primary md-raised"><span class="txt">Resend</span></md-button>
+            <md-button class="md-primary md-raised" ng-click="announcementCtrl.editResendAnnouncement(data)"><span class="txt">Edit & Resend</span></md-button>
+          </div>
+        </div>
+        <md-divider></md-divider>
+      </md-list><span id="right"></span>
+    </md-content>
+  </md-card>
+</md-content>

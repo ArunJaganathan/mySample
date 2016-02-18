@@ -1,0 +1,75 @@
+<md-content layout="column">
+    <form>
+        <md-input-container>
+            <label>Your Name * </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.name" />
+        </md-input-container>
+        <md-input-container>
+            <label>Email * </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.email" />
+        </md-input-container>
+        <md-input-container>  
+            <label>Phone * </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.phoneNumber" />
+        </md-input-container>
+        <md-input-container>
+            <label>Address Line 1 </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.address1" />
+        </md-input-container>
+        <md-input-container>
+            <label>Address Line 2 </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.address2" />
+        </md-input-container>
+        <md-input-container>
+            <label>City </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.city" />
+        </md-input-container>
+        <md-input-container>
+            <label>State </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.state" />
+        </md-input-container>
+        <md-input-container>
+            <label>Pincode </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.pincode" />
+        </md-input-container>
+        <md-input-container>
+            <label>Country </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.country" />
+        </md-input-container>
+            <md-divider></md-divider>
+            <p>School Details</p>
+            <md-divider></md-divider>
+            <md-divider></md-divider>
+        <md-input-container>
+            <label>Name of School </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.nameSchool" />
+        </md-input-container>
+        <md-input-container>
+            <label>Addreess of School </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.addressSchool" />
+        </md-input-container>
+        <md-input-container>
+            <label>Package Type</label>
+            <md-select ng-model="purchaseRequest.newPurchase.packageType">
+                <md-option ng-repeat="type in purchaseRequest.packageTypes" value="{{type.value}}">
+                    {{type.name}}
+                </md-option>
+            </md-select>
+        </md-input-container>
+        <md-input-container>
+            <label>Purchase Period</label>
+            <md-select ng-model="purchaseRequest.newPurchase.purchasePeriod">
+                <md-option ng-repeat="period in purchaseRequest.purchasePeriods" value="{{period.value}}">
+                    {{period.name}}
+                </md-option>
+            </md-select>
+        </md-input-container>
+        <md-input-container>
+            <label>Set School Name </label>
+            <input type="text" ng-model="purchaseRequest.newPurchase.urlSchool" />
+        </md-input-container>
+
+        <button ng-click="purchaseRequest.addRequest()">Add Purchase!</button>
+
+    </form>
+</md-content>

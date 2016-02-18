@@ -1,0 +1,64 @@
+
+  <div layout="column" layout-wrap layout-padding layout-fill class="littleWhiteFrame">
+    <div >
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>My Profile </h4>
+         <span flex></span>
+       <md-button class="md-raised md-accent" ng-href="/edit-profile/">Edit </md-button>
+      </div>
+    </div>
+    <md-divider></md-divider>
+    <div layout="row">
+      <div flex="15">
+        <img ng-src="images/profile.svg" style="height:70px;width:70px; margin:30px; color:gray;">
+      </div>
+      <div flex="80">
+        <h2 class="md-toolbar-tools">
+      <span>{{profileCtrl.currentUser.profile.name}}  </span>
+    </h2>
+        
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Email</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.emails[0].address}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Phone</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.phone}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Address 1:</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.line1}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Address 2:</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.line2}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">City</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.city}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">State</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.state}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Pincode</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.pincode}}</p>
+        </div>
+        <md-divider> </md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-1" flex="50">Country</p> <span class="flex"></span>
+          <p class="md-body-1" flex="50">:{{profileCtrl.currentUser.profile.address.country}}</p>
+        </div>
+       
+        
+        
+      </div>
+    </div>
+  </div>

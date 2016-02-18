@@ -1,0 +1,70 @@
+<md-content class="create-content" layout="column" flex layout-padding layout-margin>
+  <div class="modulesContainer">
+    <section layout="row" layout-sm="column" layout-wrap>
+      <h4 class="md-subhead h4">{{createModuleCtrl.pageTitle}}</h4>
+    </section>
+    <md-divider></md-divider>
+    <md-content layout-padding class="create-content">
+      <form name="createModuleForm" class="formStyle">
+        <div layout-gt-sm="row">
+          <md-input-container flex-gt-sm>
+            <label>Module Name</label>
+            <input ng-model="createModuleCtrl.module.name" required>
+          </md-input-container>
+          <div flex="5" hide-xs hide-sm>
+            <!-- Spacer //-->
+          </div>
+          <md-input-container flex-gt-sm>
+            <label>Description</label>
+            <input ng-model="createModuleCtrl.module.desc" md-maxlength="150" maxlength="150" required>
+          </md-input-container>
+        </div>
+        <div layout-gt-sm="row">
+          <md-input-container flex-gt-sm>
+            <label>Monthly Price</label>
+            <input ng-model="createModuleCtrl.module.price.monthly" required>
+          </md-input-container>
+          <div flex="5" hide-xs hide-sm>
+            <!-- Spacer //-->
+          </div>
+          <md-input-container flex-gt-sm>
+            <label>Yearly Price</label>
+            <input ng-model="createModuleCtrl.module.price.yearly" required>
+          </md-input-container>
+        </div>
+        <div layout="column">
+          <div layout="row" layout-align="left bottom">
+            <md-input-container flex="50">
+              <label>Add Feature</label>
+              <input ng-model="createModuleCtrl.featureName" md-maxlength="100" maxlength="100">
+            </md-input-container>
+            <md-button class="md-raised btnAdd" ng-click="createModuleCtrl.addFeature(createModuleCtrl.featureName)" ng-model="createModuleCtrl.btnValue">{{createModuleCtrl.btnValue}}</md-button>
+          </div>
+          <table class="moduleTableStyle  module-th-style module-td-style" flex="70">
+            <tr>
+              <th>#</th>
+              <th flex="80">Features</th>
+              <th colspan="2">Actions</th>
+            </tr>
+            <tr ng-repeat="feature in createModuleCtrl.module.features">
+              <td>{{$index+1}}</td>
+              <td>{{feature.name}}</td>
+              <td>
+                <i class="material-icons" ui-sref="ng-click='createModuleCtrl.editFeature(feature.name,$index)'" style="color:green; cursor:pointer">mode_edit</i>
+                <!-- <img ng-click="createModuleCtrl.editFeature(feature.name,$index)" src="img/edit.png" /> -->
+                <img ng-click="createModuleCtrl.removeFeature($index)" src="img/delete.svg" />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </form>
+    </md-content>
+  </div>
+  <md-input-container class="md-block" ng-if="! createModuleCtrl.module._id">
+    <md-button class="md-raised btnCreate" ng-click="createModuleCtrl.addModule()">Create Module</md-button>
+  </md-input-container>
+  <md-input-container class="md-block" ng-if="createModuleCtrl.module._id">
+    <md-button class="md-raised btnCreate" ng-click="createModuleCtrl.updateModule()">Update
+    </md-button>
+  </md-input-container>
+</md-content>

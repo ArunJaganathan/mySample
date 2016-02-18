@@ -1,0 +1,90 @@
+[{
+	"_id": "8W5jeQuqQFLCoeoRY",
+	"code": "AF",
+	"name": "Afghanistan",
+	"curr_name": "Afghani",
+	"curr_sym": "AFN",
+	"curr_br": "AFN",
+	"xval": 57.3
+}, {
+	"_id": "kTqD5EseQQDLzFD7w",
+	"code": "AX",
+	"name": "Åland Islands",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934
+
+}, {
+	"_id": "qx8RRzAMWGT5yNhfG",
+	"code": "AL",
+	"name": "Albania",
+	"curr_name": "Lek",
+	"curr_sym": "ALL",
+	"curr_br": "ALL",
+	"xval": 124.954
+
+}, {
+	"_id": "X5co7wfrm82sbbZmZ",
+	"code": "DZ",
+	"name": "Algeria",
+	"curr_name": "Algerian Dinar",
+	"curr_sym": "DZD",
+	"curr_br": "DZD",
+	"xval": 94.495
+
+}, {
+	"_id": "zcmwF55YPLR2HRJXr",
+	"code": "AS",
+	"name": "American Samoa",
+	"curr_name": "US Dollar",
+	"curr_sym": "USD",
+	"curr_br": "$",
+	"xval": NumberInt(1)
+
+}, {
+	"_id": "NLpnaHwqwt3tpd9XG",
+	"code": "AD",
+	"name": "Andorra",
+	"curr_name": "Euro",
+	"curr_sym": "EUR",
+	"curr_br": "&euro",
+	"xval": 0.8934
+
+}, {
+	"_id": "aBzr9c2GyhyddpzyY",
+	"code": "AO",
+	"name": "Angola",
+	"curr_name": "Kwanza",
+	"curr_sym": "AOA",
+	"curr_br": "",
+	"xval": 106.35
+
+}, {
+	"_id": "9Kc9j38AfpRzoaKPC",
+	"code": "AI",
+	"name": "Anguilla",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7
+
+}, {
+	"_id": "kckQXp3mxkNQ8aNwC",
+	"code": "AG",
+	"name": "Antigua and Barbuda",
+	"curr_name": "East Caribbean Dolla",
+	"curr_sym": "XCD",
+	"curr_br": "",
+	"xval": 2.7
+
+}, {
+	"_id": "vbFzvxurFuG65bpWa",
+	"code": "AR",
+	"name": "Argentina",
+	"curr_name": "Argentine Peso",
+	"curr_sym": "ARS",
+	"curr_br": "AR$",
+	"xval": 8.7263,
+
+}]

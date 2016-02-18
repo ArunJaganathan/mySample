@@ -1,0 +1,70 @@
+  <div class="littleWhiteFrame" layout="column">
+    <div layout="row" class="requestDetailElems">
+      <h4 class="md-subhead" layout-margin>Edit Profile</h4>
+    </div>
+    <md-divider></md-divider>
+       <div layout-gt-sm >
+      <md-input-container flex="55" >
+            <label>Your Name</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.name"  class="editProfileMargin">
+      </md-input-container>
+     <md-input-container flex="60">
+            <label>Email</label>
+        <input ng-model="profileeditCtrl.currentUser.emails[0].address" type="email" value="" disabled class="editProfileMargin">
+      </md-input-container>
+    </div>
+
+
+
+     <div layout-gt-sm >
+      <md-input-container flex="55" class="editProfileMargin">
+            <label>Phone</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.phone">
+      </md-input-container>
+     <md-input-container flex="60" class="editProfileMargin">
+            <label>Address LIne 1</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.line1">
+      </md-input-container>
+    </div>
+
+
+
+     <div layout-gt-sm >
+      <md-input-container flex="55" class="editProfileMargin">
+            <label>Address Line 2</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.line2">
+      </md-input-container>
+     <md-input-container flex="60" class="editProfileMargin">
+            <label>City</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.city" >
+      </md-input-container>
+    </div>
+
+   <div layout-gt-sm ="row">
+  <div layout="column" flex="50">
+      <md-input-container class="editProfileMargin">
+            <label>State</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.state">
+      </md-input-container>
+     <md-input-container  class="editProfileMargin">
+            <label>Country</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.country" >
+      </md-input-container>
+       <md-input-container class="editProfileMargin">
+            <label>Pincode</label>
+        <input ng-model="profileeditCtrl.currentUser.profile.address.pincode" >
+      </md-input-container>
+    </div>
+
+  <div layout="column" flex="55">
+  
+    </div>
+
+</div>
+
+
+  </div>
+  <section layout="row" layout-sm="column" layout-wrap>
+   <md-button class="md-raised" ng-href="/my-profile">Cancel</md-button>
+   <md-button class="md-raised md-primary" ng-click="profileeditCtrl.updateProfile()">Submit</md-button>
+     </section>

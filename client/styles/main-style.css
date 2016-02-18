@@ -1,0 +1,129 @@
+body {
+  color: #6D6D6D !important;
+}
+
+class="cp-pen-styles">.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.nav-head {
+  box-shadow: none;
+  /*border-bottom: 1px solid #80deea;*/
+}
+
+.listdemoListControls md-divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.leftSideNav {
+  font-size: 13px;
+  font-weight: normal !important;
+  max-width: 235px;
+  background-color: white !important;
+}
+
+.leftSideNav a {
+  margin: 0 !important;
+}
+
+.searchDiv {
+  top: 3%;
+}
+
+.user {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url('http://placehold.it/350x150');
+}
+
+.usertwo {
+  background-image: url('http://placehold.it/350x150');
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.userName {
+  font-size: 13px;
+}
+
+.popup {
+  max-width: 250px;
+}
+.no-padding{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.littleWhiteFrame,
+.requestDetailElems.bigWhiteFrame {
+  background-color: white !important;
+  border: 2px solid #E4E5E9;
+  box-shadow: 1px 1px 1px #E4E5E9;
+}
+
+.littleWhiteFrameNoBorder {
+  background-color: white !important;
+}
+
+.md-subhead {
+  /*This should be the text color for all subheads*/
+  color: #2398CE !important;
+  font-weight:
+}
+
+.md-body-custom {
+  font-size: 12px;
+  color: #828282 !important;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.scrollPadding{
+  padding-left: 1%;
+}
+
+.boldFont {
+  font-weight: bold;
+}
+.green-eye{
+  color: #F59600;
+}
+.btn-send-dashboard{
+  align-self: baseline;
+  background-color: #02A8F4 !important;
+  color: white !important;
+}
+
+.littleWhiteFrame.secondFrame {
+  margin-top: 5%;
+}
+
+.pUrl {
+  padding: 3% !important;
+  background-color: #DADADA !important;
+  max-height: 30px;
+  max-width: 175px;
+}
+
+.btn2 {
+  background-color: #4CB04E !important;
+  color: #FFF !important;
+  align-self: flex-end;
+}

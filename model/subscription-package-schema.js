@@ -1,0 +1,1 @@
+/*subscription-package-schema.js*/

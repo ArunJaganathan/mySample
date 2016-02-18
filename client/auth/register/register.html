@@ -1,0 +1,17 @@
+<md-toolbar class="md-warn warningstyle" flex="33" ng-show="accountRegister.hasError">
+  <div class="md-toolbar-tools">
+    <h2 class="md-flex">{{accountRegister.errorMessage}}</h2>
+  </div>
+</md-toolbar>
+<div class="layout layout-sm layout-sm-column md-padding">
+  <md-input-container class="flex md-default-theme">
+    <label for="input_175"> Email </label>
+    <input ng-model="accountRegister.email" required class="ng-pristine ng-valid md-input ng-touched" id="input_175" aria-invalid="false" style="">
+  </md-input-container>
+</div>
+<section layout="row" layout-sm="column" layout-align="center center" layout-wrap="" class="layout-wrap layout-sm-column layout-align-center-center layout-row">
+  <button class="md-raised md-primary md-button md-ink-ripple" ng-click="accountRegister.addUser()" type="button"><span class="ng-scope"> Register </span></button>
+</section>
+<div class="forgot_con md-padding">
+  <span class="forgot"> <a ui-sref="forgotpassword"> Forgot password </a> </span>
+</div>

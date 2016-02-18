@@ -1,0 +1,301 @@
+<style>
+.vertical-fixed-container {
+  height: 150px;
+  border: none !important;
+}
+</style>
+<div layout="column" layout-wrap layout-padding layout-fill>
+  <div class="littleWhiteFrame">
+    <div layout="row" class="requestDetailElems">
+      <h4 class="md-subhead" layout-margin>Purchase Requests</h4>
+    </div>
+    <md-divider></md-divider>
+    <md-tabs md-border-bottom>
+      <md-tab label="New Requests" class="md-body-custom" md-on-select='tabSelect("newPurchaseRequestList","new")'>
+        <md-content class="littleWhiteFrameNoBorder" flex layout="center">
+          <div flex layout="column">
+            <div flex layout="row">
+              <p flex="10" class="md-body-custom boldFont">Sl.No</p>
+              <p flex="25" class="md-body-custom boldFont">Customer ID</p>
+              <p flex="20" class="md-body-custom boldFont">Contact Person</p>
+              <p flex="20" class="md-body-custom boldFont">Phone Number</p>
+              <p flex="15" class="md-body-custom boldFont">Country</p>
+              <p flex="20" class="md-body-custom boldFont">Received</p>
+              <p flex="10" class="md-body-custom boldFont">Action</p>
+            </div>
+            <md-divider></md-divider>
+            <md-virtual-repeat-container class="littleWhiteFrame vertical-fixed-container">
+              <div flex layout="column" md-virtual-repeat="item in dashboardCtrl.dynamicItems" md-on-demand class="repeated-item">
+                <div flex layout="row">
+                  <p flex="10" class="md-body-custom scrollPadding">{{ $index + 1 }}</p>
+                  <p flex="25" class="md-body-custom scrollPadding">{{item.CustomerID}}</p>
+                  <p flex="20" class="md-body-custom scrollPadding">{{item.name}}</p>
+                  <p flex="20" class="md-body-custom scrollPadding">{{item.phoneNumber}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.country}}</p>
+                  <p flex="20" class="md-body-custom scrollPadding">{{item.receivedOn}}</p>
+                  <p flex="10" class="md-body-custom scrollPadding">
+                    <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+                  </p>
+                </div>
+                <md-divider></md-divider>
+              </div>
+            </md-virtual-repeat-container>
+          </div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Renew & Upgrade" class="md-body-custom" md-on-select='tabSelect("newUpgradeRequestList","renew")'>
+        <md-content class="littleWhiteFrameNoBorder" flex layout="center">
+          <div flex layout="column">
+            <div flex layout="row">
+              <p flex="10" class="md-body-custom boldFont">Sl.No</p>
+              <p flex="15" class="md-body-custom boldFont">Customer ID</p>
+              <p flex="15" class="md-body-custom boldFont">Contact Name</p>
+              <p flex="15" class="md-body-custom boldFont">Phone Number</p>
+              <p flex="10" class="md-body-custom boldFont">Country</p>
+              <p flex="15" class="md-body-custom boldFont">Old Package</p>
+              <p flex="15" class="md-body-custom boldFont">New Package</p>
+              <p flex="5" class="md-body-custom boldFont">Action</p>
+            </div>
+            <md-divider></md-divider>
+            <div flex layout="column" ng-repeat="item in dashboardCtrl.approvedRequests">
+              <div flex layout="row">
+                <p flex="10" class="md-body-custom">{{ $index + 1 }}</p>
+                <p flex="15" class="md-body-custom">{{item.CustomerID}}</p>
+                <p flex="15" class="md-body-custom">{{item.contactPerson}}</p>
+                <p flex="15" class="md-body-custom">{{item.phoneNumber}}</p>
+                <p flex="10" class="md-body-custom">{{item.country}}</p>
+                <p flex="15" class="md-body-custom">{{item.oldPackage}}</p>
+                <p flex="15" class="md-body-custom">{{item.newPackage}}</p>
+                <p flex="5" class="md-body-custom">
+                  <i ui-sref="requestDetails({ reqId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+                </p>
+              </div>
+            </div>
+            <md-virtual-repeat-container class="littleWhiteFrame vertical-fixed-container">
+              <div flex layout="column" md-virtual-repeat="item in dashboardCtrl.dynamicItems" md-on-demand class="repeated-item">
+                <div flex layout="row">
+                  <p flex="10" class="md-body-custom scrollPadding">{{ $index + 1 }}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.CustomerID}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.name}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.phoneNumber}}</p>
+                  <p flex="10" class="md-body-custom scrollPadding">{{item.country}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.oldPackage}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.newPackage}}</p>
+                  <p flex="5" class="md-body-custom">
+                    <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+                  </p>
+                </div>
+                <md-divider></md-divider>
+              </div>
+            </md-virtual-repeat-container>
+          </div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Approved" class="md-body-custom" md-on-select='tabSelect("newApprovedRequestList","approved")'>
+        <md-content class="littleWhiteFrameNoBorder" flex layout="center">
+          <div flex layout="column">
+            <div flex layout="row">
+              <p flex="10" class="md-body-custom boldFont">Sl.No</p>
+              <p flex="15" class="md-body-custom boldFont">Contact Name</p>
+              <p flex="15" class="md-body-custom boldFont">Phone Number</p>
+              <p flex="10" class="md-body-custom boldFont">Country</p>
+              <p flex="15" class="md-body-custom boldFont">Customer Type</p>
+              <p flex="15" class="md-body-custom boldFont">Payment Status</p>
+              <p flex="5" class="md-body-custom boldFont">Action</p>
+            </div>
+            <md-divider></md-divider>
+            <div flex layout="column" ng-repeat="item in dashboardCtrl.newRequests">
+              <div flex layout="row">
+                <p flex="10" class="md-body-custom">{{ $index + 1 }}</p>
+                <p flex="15" class="md-body-custom">{{item.contactPerson}}</p>
+                <p flex="15" class="md-body-custom">{{item.phoneNumber}}</p>
+                <p flex="10" class="md-body-custom">{{item.country}}</p>
+                <p flex="15" class="md-body-custom">{{item.type}}</p>
+                <p flex="15" class="md-body-custom">{{item.paymentStatus}}</p>
+                <md-button class="md-primary md-raised viewButton"  ng-click="dashboardCtrl.showAdvanced(item.id)" value="{{item.id}}" >View Details</md-button>
+              </div>
+           <!--      <p flex="5" class="md-body-custom">
+                  <i ui-sref="requestDetails({ reqId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+                </p> -->
+            </div>
+          </div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Rejected" class="md-body-custom" md-on-select='tabSelect("newRejectedRequestList","rejected")'>
+        <md-content class="littleWhiteFrameNoBorder" flex layout="center">
+          <div flex layout="column">
+            <div flex layout="row">
+              <p flex="10" class="md-body-custom boldFont">Sl.No</p>
+              <p flex="15" class="md-body-custom boldFont">Customer ID</p>
+              <p flex="15" class="md-body-custom boldFont">Contact Name</p>
+              <p flex="15" class="md-body-custom boldFont">Phone Number</p>
+              <p flex="10" class="md-body-custom boldFont">Country</p>
+              <p flex="30" class="md-body-custom boldFont">Reason for Rejection</p>
+              <p flex="5" class="md-body-custom boldFont">Action</p>
+            </div>
+            <md-divider></md-divider>
+            <md-virtual-repeat-container class="littleWhiteFrame vertical-fixed-container">
+              <div flex layout="column" md-virtual-repeat="item in dashboardCtrl.dynamicItems" md-on-demand class="repeated-item">
+                <div flex layout="row">
+                  <p flex="10" class="md-body-custom scrollPadding">{{ $index + 1 }}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.CustomerID}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.name}}</p>
+                  <p flex="15" class="md-body-custom scrollPadding">{{item.phoneNumber}}</p>
+                  <p flex="10" class="md-body-custom scrollPadding">{{item.country}}</p>
+                  <p flex="30" class="md-body-custom scrollPadding">{{item.reasonForRejection}}</p>
+                  <p flex="5" class="md-body-custom">
+                    <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+                  </p>
+                </div>
+                <md-divider></md-divider>
+              </div>
+            </md-virtual-repeat-container>
+          </div>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  </div>
+  <md-divider></md-divider>
+  <!--                               -->
+  <!--- Subscription Expiry Alerts //-->
+  <!--                               -->
+  
+  <div class="littleWhiteFrame">
+    <div layout="row" class="requestDetailElems">
+      <h4 class="md-subhead" layout-margin>Subscription Expiry Alerts</h4>
+    </div>
+    <md-divider></md-divider>
+    <div flex layout="column">
+      <div flex layout="row">
+        <p flex="5" class="md-body-custom boldFont">Sl.No</p>
+        <p flex="15" class="md-body-custom boldFont">Customer ID</p>
+        <p flex="15" class="md-body-custom boldFont">Contact Person</p>
+        <p flex="15" class="md-body-custom boldFont">Phone Number</p>
+        <p flex="15" class="md-body-custom boldFont">Country</p>
+        <p flex="15" class="md-body-custom boldFont">Expires on</p>
+        <p flex="15" class="md-body-custom boldFont">Grace Period</p>
+        <p flex="5" class="md-body-custom boldFont">Action</p>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="row">
+        <p flex="5" class="md-body-custom">1</p>
+        <p flex="15" class="md-body-custom">7uieyusldee</p>
+        <p flex="15" class="md-body-custom">Naseer Mohammed</p>
+        <p flex="15" class="md-body-custom">8891111454</p>
+        <p flex="15" class="md-body-custom">India</p>
+        <p flex="15" class="md-body-custom">2015-12-2</p>
+        <p flex="15" class="md-body-custom">No</p>
+        <p flex="5" class="md-body-custom">
+          <i class="material-icons">alarm_on</i>
+        </p>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="row">
+        <p flex="5" class="md-body-custom">1</p>
+        <p flex="15" class="md-body-custom">7uieyusldee</p>
+        <p flex="15" class="md-body-custom">Naseer Mohammed</p>
+        <p flex="15" class="md-body-custom">8891111454</p>
+        <p flex="15" class="md-body-custom">India</p>
+        <p flex="15" class="md-body-custom">2015-12-2</p>
+        <p flex="15" class="md-body-custom">No</p>
+        <p flex="5" class="md-body-custom">
+          <i class="material-icons">alarm_on</i>
+        </p>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="row">
+        <p flex="5" class="md-body-custom">1</p>
+        <p flex="15" class="md-body-custom">7uieyusldee</p>
+        <p flex="15" class="md-body-custom">Naseer Mohammed</p>
+        <p flex="15" class="md-body-custom">8891111454</p>
+        <p flex="15" class="md-body-custom">India</p>
+        <p flex="15" class="md-body-custom">2015-12-2</p>
+        <p flex="15" class="md-body-custom">No</p>
+        <p flex="5" class="md-body-custom">
+          <i class="material-icons">alarm_on</i>
+        </p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <md-divider></md-divider>
+  <!--                               -->
+  <!--- Subscription Expiry Alerts //-->
+  <!--                               -->
+  <div class="littleWhiteFrame" layout="column">
+    <div layout="row" class="requestDetailElems">
+      <h4 class="md-subhead" layout-margin>Make an Announcement</h4>
+    </div>
+    <md-divider></md-divider>
+    <div flex layout="row" layout-margin>
+      <md-input-container flex="40">
+        <label>Textarea</label>
+        <input ng-model="dashboardCtrl.announcement">
+      </md-input-container>
+      <md-input-container flex="40">
+        <label>All School Admin</label>
+        <md-select ng-model="dashboardCtrl.announcementTo">
+          <md-option ng-repeat="role in dashboardCtrl.announcementRoles" value="{{role.name}}">
+            {{role.name}}
+          </md-option>
+        </md-select>
+      </md-input-container>
+      <md-button flex-offset="15" class="btn-send-dashboard md-raised" ng-click="acceptOffer();"> Send </md-button>
+    </div>
+  </div>
+  <md-divider></md-divider>
+  <div layout="row" class="no-padding">
+    <div class="littleWhiteFrame" flex="45" layout="column">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>Recently added schools</h4>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="column">
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Govt. Model School</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Govt. Model School</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Govt. Model School</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+      </div>
+    </div>
+    <div class="littleWhiteFrame" flex="50" flex-offset="5" layout="column">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>Recently added Customers</h4>
+      </div>
+      <md-divider></md-divider>
+      <div flex layout="column">
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Tosin Oshikoya</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Rasin Ottvayo</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+        <div layout="row" layout-margin>
+          <p class="md-body-custom">Skrasehtp Odasete</p>
+          <span flex></span>
+          <i ui-sref="requestDetails({ requestId: item._id })" class="material-icons green-eye">remove_red_eye</i>
+        </div>
+        <md-divider></md-divider>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,98 @@
+
+<div layout="row">
+  <div flex="45">
+    <div layout="column" layout-wrap layout-padding layout-fill>
+      <div class="littleWhiteFrame">
+        <div layout="row" class="requestDetailElems">
+          <h4 class="md-subhead" layout-margin>Add Country</h4>
+        </div>
+        <md-divider></md-divider>
+        <form>
+          <div layout-gt-sm>
+        <md-input-container >
+              <md-autocomplete 
+               ng-model="settingsCtrl.country"
+          ng-disabled="settingsCtrl.isDisabled"
+          md-no-cache="settingsCtrl.noCache"
+          md-selected-item="settingsCtrl.selectedItem"
+          md-search-text-change="settingsCtrl.searchTextChange(settingsCtrl.searchText)"
+          md-search-text="settingsCtrl.searchText"
+          md-selected-item-change="settingsCtrl.selectedItemChange(item)"
+          md-items="item in settingsCtrl.querySearch(settingsCtrl.searchText)"
+          md-item-text="item.display"
+          md-min-length="0"
+         >
+        <md-item-template>
+          <span md-highlight-text="settingsCtrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
+        </md-item-template>
+        <md-not-found>
+          No states matching "{{settingsCtrl.searchText}}" were found.
+          
+        </md-not-found>
+      </md-autocomplete>
+             
+            </md-input-container>
+            <md-input-container>
+              <md-button class="md-raised" ng-click="settingsCtrl.addCountry()">Add to List</md-button>
+            </md-input-container>
+          </div>
+          <div layout-gt-sm="row">
+            <md-input-container class="CountryBox">
+              <p ng-repeat="country in settingsCtrl.countries.ctryName">{{country.name}}</p>
+            </md-input-container>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div flex="45">
+    <div layout="column" layout-wrap layout-padding layout-fill>
+      <div class="littleWhiteFrame">
+        <div layout="row" class="requestDetailElems">
+          <h4 class="md-subhead" layout-margin>Grace Period</h4>
+        </div>
+        <md-divider></md-divider>
+        <div layout-gt-sm="row">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Monthly Subscription</label>
+            <md-select ng-model="settingsCtrl.grace.month">
+              <md-option >none</md-option>
+              <md-option >1 day</md-option>
+              <md-option >2 days</md-option>
+              <md-option >3 days</md-option>
+            </md-select>
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+          </md-input-container>
+        </div>
+        <div layout-gt-sm="row">
+          <md-input-container class="md-block" flex-gt-sm>
+            <label>Yearly Subscription</label>
+            <md-select ng-model="settingsCtrl.grace.year">
+              <md-option >none</md-option>
+              <md-option >7 days</md-option>
+            </md-select>
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+          </md-input-container>
+        </div>
+        <div layout-gt-sm="row">
+          <md-input-container class="md-block" flex-gt-sm>
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+          </md-input-container>
+          <md-input-container class="md-block" flex-gt-sm>
+            <md-button class="md-raised md-warn" ng-click="settingsCtrl.addGrace()">Save</md-button>
+          </md-input-container>
+  
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

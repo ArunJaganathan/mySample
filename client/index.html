@@ -1,0 +1,16 @@
+<head>
+  <title>Page Title</title>
+  <base href="/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="initial-scale=1" />
+  <base href="/">
+</head>
+
+<body ng-app="edu-core" ng-strict-di="" layout="row" ng-controller="MainCtrl as mainCtrl">
+  <side-nav ng-if="mainCtrl.isLoggedIn"></side-nav>
+  <div layout="column" role="main" flex>
+    <header-component ng-if="mainCtrl.isLoggedIn"></header-component>
+    <md-content class="md-content-custom-theme completeDiv" layout="column" layout-padding flex ui-view=""></md-content>
+  </div>
+</body>

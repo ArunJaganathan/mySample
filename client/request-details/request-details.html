@@ -1,0 +1,109 @@
+<div layout-xs="column" layout="row" layout-wrap layout-padding layout-fill>
+  <div layout="column" flex="50">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>User Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Name</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.name}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Email</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.name}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Phone Number</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.phoneNumber}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 1</p> <span class="flex"></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.address1}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 2</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.address2}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">City</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.city}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">State</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.state}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Pincode</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.pincode}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Country</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.country}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="50">
+    <div class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>School Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Name of School</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.nameSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 1</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.addressSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+    <div  class="littleWhiteFrame secondFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>School Domain Name Requested</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Requested Name</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.purchase.urlSchool+'.cordovacloud.com'}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="column" class="requestDetailElems">
+        <div layout="row" layout-align="center center" layout-margin>
+          <md-input-container flex="50">
+            <label>Preferred Subdomain</label>
+            <input type="text" ng-model="requestCtrl.purchase.urlSchool" />
+          </md-input-container>
+          <p flex="50" class="pUrl md-body-1">.cordovacloud.com</p>
+        </div>
+        <md-button class="md-raised btn2">Check Availability</md-button>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="100">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <h4 class="md-subhead" layout-margin>PACKAGE SELECTED</h4>
+      </div>
+      <md-divider></md-divider>
+     
+      <p class="md-body-1" layout-padding>{{requestCtrl.purchase.packageType}}</p>
+    </div>
+  </div>
+  <div layout="row" flex="grow">
+    <md-button class="md-raised md-accent" ng-click="requestCtrl.approvePurchaseRequest(requestCtrl.purchase._id)">To Billing</md-button>
+    <md-button class="md-raised md-warn" ng-click="requestCtrl.rejectPurchaseRequest(requestCtrl.purchase._id)">Reject</md-button>
+  </div>
+</div>

@@ -1,0 +1,94 @@
+<md-content class="md-padding" layout-xs="column" layout="row" layout-padding layout-wrap layout-fill ng-cloak>
+  <form id="registerUser" class="widthe">
+    <md-content layout-wrap layout="row" class="littleWhiteFrame">
+      <div class="widthe">
+        <div layout="column" layout-wrap layout-gt-sm="row">
+          <div flex="100">
+            <div class="md-toolbar-tools subheadings">
+              <h2>
+          <span class="subheading-fontcolor">
+            <md-button>Create new Package</md-button> 
+            </span>
+        </h2>
+            </div>
+            <md-divider></md-divider>
+            <div layout-gt-sm="row" class="side">
+              <md-input-container class="md-block">
+                <label class="txtpad txtColor txtHeight">Package name</label>
+                <input ng-model="subscriptionPackageCtrl.subPackages.name" type='text' name='name'>
+                <p id='username-error' class="errormsg">{{errors.package_name}}</p>
+              </md-input-container>
+            </div>
+          </div>
+          <div flex="50">
+            <div layout-gt-sm="row" class="side">
+              <md-checkbox ng-model="subscriptionPackageCtrl.allItemsSelected" ng-change="subscriptionPackageCtrl.selectAll(subscriptionPackageCtrl.allItemsSelected)" class="md-primary">
+                Select All</md-checkbox>
+              <md-checkbox ng-model="subscriptionPackageCtrl.deselectAll" ng-click="subscriptionPackageCtrl.deselectedAll()">
+                Deselect All
+              </md-checkbox>
+            </div>
+          </div>
+        </div>
+        <md-divider></md-divider>
+        <md-content layout-wrap layout-gt-sm="row" flex="100" class="littleWhiteFrame">
+          <md-divider></md-divider>
+          <p></p>
+          <md-card layout-align="center" class="littleWhiteFrame layer" flex="25" ng-repeat="modules in subscriptionPackageCtrl.modules" ng-class="{selected: modules.isChecked}">
+            <md-toolbar class="tilte_bar">
+              <div class="title heads" layout-align="space-between center" layout-wrap>
+                <md-checkbox ng-model="subscriptionPackageCtrl.modules[$index].isChecked" ng-change="subscriptionPackageCtrl.getClicked(subscriptionPackageCtrl.modules[$index])" class='checkbxinput' aria-label="Checkbox_{{$index+1}} checked checkbox">
+                </md-checkbox>
+                {{modules.name}}
+              </div>
+            </md-toolbar>
+            <md-card-content class="module_height">
+              <md-list>
+                <md-item>
+                  <md-item-content>
+                    <div class="md-tile-content">
+                      <p>{{modules.desc | limitTo: 80}} {{modules.desc.length > 80 ? '...' : ''}}</p>
+                      <md-divider></md-divider>
+                      <!-- <div class="topbtm title">${{modules.price.yearly}}/yr</div>
+                      <md-divider></md-divider> -->
+                      <span>Feature:</span>
+                      <p ng-repeat="feature in modules.features">{{feature.name}}</p>
+                      <md-divider></md-divider>
+                      <!-- <p class="title">1048 Subscriptions</p> -->
+                    </div>
+                  </md-item-content>
+                </md-item>
+              </md-list>
+            </md-card-content>
+          </md-card>
+        </md-content>
+        <div layout-gt-sm="row" class="prices">
+          <md-input-container>
+            <label class="txtpad txtColor">Monthly Price</label>
+            <!-- subscriptionPackageCtrl.subPackages.price.monthly -->
+            <input ng-model="subscriptionPackageCtrl.monthlyPrice" disabled class="priceClr">
+          </md-input-container>
+          <md-input-container>
+            <label class="txtpad txtColor">Yearly Price</label>
+            <input ng-model="subscriptionPackageCtrl.yearlyPrice" disabled class="priceClr">
+          </md-input-container>
+        </div>
+        <md-input-container class="studSpport">
+          <label class="txtpad txtColor">Student support</label>
+          <input ng-model="subscriptionPackageCtrl.subPackages.price.stud_sprt" name="stud_sprt" class="priceClr">
+          <p class="errormsg">{{errors.stud_sprt}}</p>
+        </md-input-container>
+        <md-content layout-wrap layout="row">
+          <div ng-if="subscriptionPackageCtrl.subPackages._id">
+            <md-button class="md-raised md-primary" ng-click="subscriptionPackageCtrl.getPublished('edit')">Create and Publish </md-button>
+            <md-button class="md-raised md-warn" ng-click="subscriptionPackageCtrl.savePackage('edit')">Save</md-button>
+          </div>
+          <div ng-if="! subscriptionPackageCtrl.subPackages._id">
+            <md-button class="md-raised md-primary" ng-click="subscriptionPackageCtrl.getPublished('add')">Create and Publish </md-button>
+            <md-button cl0ass="md-raised md-warn" ng-click="subscriptionPackageCtrl.savePackage('add')">Save</md-button>
+          </div>
+        </md-content>
+      </div>
+    </md-content>
+  </form>
+</md-content>

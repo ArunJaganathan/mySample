@@ -1,0 +1,108 @@
+<div layout-xs="column" layout="row" layout-wrap layout-padding layout-fill>
+  <div layout="column" flex="50">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>User Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Name</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.name}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Email</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.email}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Phone Number</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.phoneNumber}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 1</p> <span class="flex"></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.address1}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 2</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.address2}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">City</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.city}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">State</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.state}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Pincode</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.pincode}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Country</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.country}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="50">
+    <div class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>School Details</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Name of School</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.nameSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Address Line 1</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.addressSchool}}</p>
+      </div>
+      <md-divider></md-divider>
+    </div>
+    <div  class="littleWhiteFrame secondFrame">
+      <div layout="row" class="requestDetailElems">
+        <h4 class="md-subhead" layout-margin>Allocated Domain Name</h4>
+      </div>
+      <md-divider></md-divider>
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <p class="md-body-1" flex="50">Requested Name</p> <span class="flex" flex=""></span>
+        <p class="md-body-1" flex="50">{{requestCtrl.approvedRequestDetails.urlSchool+'.cordovacloud.com'}}</p>
+      </div>
+      <md-divider></md-divider>
+      <div layout="column" class="requestDetailElems">
+        <div layout="row" layout-align="center center" layout-margin>
+          <md-input-container flex="50">
+            <label>Preferred Subdomain</label>
+            <input type="text" ng-model="requestCtrl.approvedRequestDetails.urlSchool" />
+          </md-input-container>
+          <p flex="50" class="pUrl md-body-1">.cordovacloud.com</p>
+        </div>
+      </div>
+      <md-divider></md-divider>
+    </div>
+  </div>
+  <div layout="column" flex="100">
+    <div  class="littleWhiteFrame">
+      <div layout="row" class="requestDetailElems" layout-margin>
+        <h4 class="md-subhead" layout-margin>PACKAGE SELECTED</h4>
+      </div>
+      <md-divider></md-divider>
+     
+      <p class="md-body-1" layout-padding>{{requestCtrl.approvedRequestDetails.packageType}}</p>
+    </div>
+  </div>
+  <div layout="row" flex="grow">
+    <md-button class="md-raised md-accent" ng-click="requestCtrl.approveCustomer(requestCtrl.approvedRequestDetails.id)">Create Customer</md-button>
+    <!-- <md-button class="md-raised md-warn" ng-click="requestCtrl.rejectPurchaseRequest(requestCtrl.approvedRequestDetails._id)">Reject</md-button> -->
+  </div>
+</div>
